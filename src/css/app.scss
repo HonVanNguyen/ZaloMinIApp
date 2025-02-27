@@ -1,0 +1,400 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Averta_Semi";
+  src:
+    url("../assets/fonts/Averta/Averta-Semibold.otf") format("opentype"),
+    url("../assets/fonts/Averta/Averta-Semibold.woff2") format(".woff2"),
+    url("../assets/fonts/Averta/Averta-Semibold.woff") format("woff"),
+    url("../assets/fonts/Averta/Averta-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Averta_Bold";
+  src:
+    url("../assets/fonts/Averta/Averta-Bold.otf") format("opentype"),
+    url("../assets/fonts/Averta/Averta-Bold.woff2") format(".woff2"),
+    url("../assets/fonts/Averta/Averta-Bold.woff") format("woff"),
+    url("../assets/fonts/Averta/Averta-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Averta_Regular";
+  src:
+    url("../assets/fonts/Averta/Averta-Regular.otf") format("opentype"),
+    url("../assets/fonts/Averta/Averta-Regular.woff2") format(".woff2"),
+    url("../assets/fonts/Averta/Averta-Regular.woff") format("woff"),
+    url("../assets/fonts/Averta/Averta-Regular.ttf") format("truetype");
+}
+
+// Text
+.font-averta-semibold {
+  font-family: "Averta_Semi",
+}
+.text-color-header {
+  color: var(--text-color-header)
+}
+// header
+.header {
+  .background-h-main{
+    background: var(--text-color-header);
+  }
+  
+} 
+//
+body {
+  background-color: var(--zmp-background-color);
+  user-select: none;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.zaui-routes {
+  height: 100%;
+}
+
+.zaui-page {
+  min-height: unset;
+}
+
+.zaui-header {
+  position: sticky;
+  height: auto;
+  margin-bottom: 0;
+  flex: none;
+
+  &::after {
+    display: none;
+  }
+}
+
+.zaui-input-affix-wrapper {
+  margin: 0;
+}
+
+.border-inset {
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.zaui-text-xxxxSmall {
+  line-height: 16px;
+}
+
+.zaui-btn-tertiary,
+.zaui-btn-tertiary.zaui-btn-highlight,
+.zaui-bottom-navigation-item-active {
+  color: var(--zmp-primary-color);
+}
+
+.zaui-btn-primary,
+.zaui-btn-primary.zaui-btn-highlight,
+.zaui-radio-checked .zaui-radio-checkmark,
+.zaui-btn-primary:active,
+.zaui-btn-primary.zaui-btn-highlight:active,
+.zaui-btn-primary:focus-visible,
+.zaui-btn-primary.zaui-btn-highlight:focus-visible {
+  background-color: var(--zmp-primary-color);
+}
+
+.zaui-btn-primary:active,
+.zaui-btn-primary.zaui-btn-highlight:active,
+.zaui-btn-primary:focus-visible,
+.zaui-btn-primary.zaui-btn-highlight:focus-visible {
+  opacity: 0.9;
+}
+
+.zaui-picker-item-selected {
+  color: var(--zmp-primary-color);
+}
+
+.zaui-input-affix-wrapper-focused,
+.zaui-input-affix-wrapper:hover,
+.zaui-input-affix-wrapper:focus,
+.zaui-input-affix-wrapper:focus-visible {
+  border-color: var(--zmp-primary-color);
+}
+
+.zaui-tabs-tabbar-active-line {
+  background-color: var(--zmp-primary-color);
+}
+.main-template{
+  background-color: '#FAF8F8' !important;
+  background: '#FAF8F8' !important;
+}
+.category-tabs {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  .zaui-tabs-tabbar {
+    flex: none;
+  }
+  .zaui-tab-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+  }
+  .zaui-tab {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+.swiper-pagination.swiper-pagination-horizontal {
+  display: flex;
+  gap: 4px;
+  background: rgba(0, 0, 0, 0.2);
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100px;
+  padding: 4px;
+  bottom: 12px;
+
+  > .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.6);
+
+    &.swiper-pagination-bullet-active {
+      background: #ffffff;
+      transform: scale(1.5);
+    }
+  }
+}
+// header home page
+.custom-home-main {
+  background: var(--main-color-2);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 14vh;
+  .header {
+    height: 100%;
+    gap: 15px;
+    position: absolute;
+    top: 6vh;
+    .text-av {
+      font-family: 'Averta_Semi';
+      color: white;
+      font-size: 16px;
+    }
+  }
+}
+// header page
+.custom-header-app {
+  background: var(--main-color-2);
+  height: 14vh;
+  .header {
+    height: 100%;
+    .text-av {
+      font-family: 'Averta_Semi';
+      color: white;
+      font-size: 16px;
+    }
+  }
+}
+
+.custom-home-profile {
+  background: var(--main-color-2);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 25vh;
+  padding-bottom: 8vh;
+  .header {
+    height: 100%;
+    gap: 15px;
+    .text-av {
+      font-family: 'Averta_Semi';
+      color: white;
+      font-size: 16px;
+    }
+  }
+}
+.custom-home-info-data {
+  background: var(--main-color-2);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 30vh;
+  .header {
+    height: 100%;
+    gap: 15px;
+    .text-av {
+      font-family: 'Averta_Semi';
+      color: white;
+      font-size: 16px;
+    }
+  }
+}
+.update-box-info {
+  -webkit-box-shadow: 1px 3px 11px 15px rgba(235, 122, 124, 0.46);
+  -moz-box-shadow: 1px 3px 11px 15px rgba(235, 122, 124, 0.46);
+  box-shadow: 1px 3px 11px 15px rgba(235, 122, 124, 0.46);
+}
+// custom-scrollbar
+/* For modern browsers */
+.custom-scrollbar {
+  position: relative;
+  scrollbar-width: thin; /* Firefox: Makes the scrollbar thinner */
+  scrollbar-color: #ff6366 #f5f5f5; /* Thumb color, track color */
+}
+
+/* For WebKit browsers (Chrome, Edge, Safari) */
+.custom-scrollbar::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 6px; /* Width of the scrollbar */
+  height: 6px; /* Height for horizontal scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f5f5f5; /* Track background color */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ff6366; /* Thumb (scroll handle) color */
+  border-radius: 20px; /* Rounded corners for the thumb */
+  border: 2px solid #f5f5f5; /* Adds padding and matches the track */
+}
+:root {
+  --zaui-light-switch-off-bg-color: #ff6666; /* Customize your color here */
+}
+
+.custom-btn {
+  border: 1px solid #fff;
+  background-color: var(--zaui-light-switch-off-bg-color, #fff) !important;
+}
+
+/* Custom handle styling */
+.zaui-switch:checked::before {
+  background: #ff6666;
+}
+.zaui-switch::before {
+  top: 1px;
+}
+// swiper
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.mySwiper {
+  .swiper-slide {
+    width: 45vw !important;
+  }
+  .swiper-pagination-bullet {
+    width: 40px !important;
+    border-radius: 1px !important;
+    gap: 0px !important;
+  }
+  .swiper-pagination.swiper-pagination-horizontal {
+    background: #c7c8ce;
+    column-gap: 0;
+    row-gap: 0;
+    margin-bottom: 15px;
+    padding: 1px 10px;
+  }
+  .swiper-pagination.swiper-pagination-horizontal
+    > .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #ff6666 !important;
+    height: 2px !important;
+  }
+}
+.zaui-modal-content-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  // button:first-child {
+  //   background-color: #f5f5f5;
+  //   width: 90vw !important;
+  //   color: #ff6666 ;
+  //   border: none;
+  //   border-radius: 8px;
+  //   cursor: pointer;
+  //   transition: all 0.3s ease;
+
+  //   &:hover {
+  //     background-color: #ff6666;
+  //     color: #fff;
+  //   }
+  // }
+  button:first-child {
+    background-color: #ff6666;
+    width: 90vw !important;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #fff;
+      color: #ff6666;
+    }
+  }
+}
+.custom-modal {
+  .zaui-modal-content {
+    height: 100vh;
+    max-height: 100vh;
+    body.ios & {
+      padding-bottom: 12vh;
+    }
+
+    body.android & {
+      padding-bottom: 0; // Or exclude padding if unnecessary
+    }
+  }
+}
+.box-input{
+  .zaui-modal-content{
+    width: 100vw !important;
+    height: 100vh !important;
+    max-height: 100vh !important;
+  }
+  .zaui-modal-content-title{
+    color: #F45F59;
+    font-family: 'Averta_Semi';
+    font-size: '24px';
+  }
+}
+
+.root-style {
+  .main-font-family-semi{
+    font-family: 'Averta_Semi';
+  }
+  .main-font-family-regular{
+    font-family: 'Averta_Regular';
+  }
+  .black-text{
+    color: var(--text-color-black);
+  }
+  .header-text{
+    color: var(--text-color-header);
+  }
+  .sub-text{
+    color: var(--sub-text-color);
+  }
+}
+
+// horizon list
+.horizontal-scroll-container {
+  display: flex;
+  width: 95vw;
+  gap: 10px; 
+  overflow-x: auto; 
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+  white-space: nowrap; 
+  // padding-bottom: 5px; 
+  padding-right: 10px;
+}
+.horizontal-scroll-container > * {
+  min-width: max-content; 
+}
+.horizontal-scroll-container::-webkit-scrollbar {
+  display: none; 
+}

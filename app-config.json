@@ -1,0 +1,40 @@
+{
+  "app": {
+    "title": "Bistech ZMA",
+    "headerColor": "",
+    "textColor": "black",
+    "statusBarColor": "#ffffff",
+    "leftButton": "none",
+    "statusBar": "transparent",
+    "selfControlLoading": false,
+    "hideAndroidBottomNavigationBar": false,
+    "hideIOSSafeAreaBottom": false,
+    "actionBarHidden": true
+  },
+  "debug": false,
+  "listCSS": [],
+  "listSyncJS": [],
+  "listAsyncJS": [],
+  "pages": [
+    "/user",
+    "/form",
+    "/dynamic-route",
+    "/about",
+    "/404"
+  ],
+  "template": {
+    "mainBackground":"#f9acd6",
+    "textColorHeader":"#EF63B2",
+    "primaryColor": "#eb7a7c",
+    "mainColor1": "#f9acd6",
+    "mainColor2": "#ef63b2",
+    "mainColor3": "#6377f5",
+    "mainColor4": "#36daef",
+    "mainColor": "#2f9ad6",
+    "backText": "#17181A",
+    "subTextColor": "#98A1B3",
+    "prefixCurrencySymbol": false,
+    "currencySymbol": "đ",
+    "headerLogo": "./src/assets/icon/logoSoki_white.png"
+  }
+}

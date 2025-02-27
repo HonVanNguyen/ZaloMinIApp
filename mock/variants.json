@@ -1,0 +1,71 @@
+[
+  {
+    "id": "size",
+    "label": "Thời hạn",
+    "type": "single",
+    "default": "m",
+    "options": [
+      {
+        "id": "s",
+        "label": "1 tháng",
+        "priceChange": {
+          "type": "percent",
+          "percent": -0.2
+        }
+      },
+      {
+        "id": "m",
+        "label": "6 tháng"
+      },
+      {
+        "id": "l",
+        "label": "1 năm",
+        "priceChange": {
+          "type": "percent",
+          "percent": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "topping",
+    "label": "Chức năng",
+    "type": "multiple",
+    "default": ["t1", "t4"],
+    "options": [
+      {
+        "id": "t1",
+        "label": "Hỗ trợ 24h",
+        "priceChange": {
+          "type": "fixed",
+          "amount": 500000
+        }
+      },
+      {
+        "id": "t2",
+        "label": "Lưu trữ không giới hạn",
+        "priceChange": {
+          "type": "fixed",
+          "amount": 1000000
+        }
+      },
+      {
+        "id": "t3",
+        "label": "Giao diện tuỳ chỉnh",
+        "priceChange": {
+          "type": "percent",
+          "percent": 0.15,
+          "amount": 0
+        }
+      },
+      {
+        "id": "t4",
+        "label": "Không gì cả",
+        "priceChange": {
+          "type": "fixed",
+          "amount": -500000
+        }
+      }
+    ]
+  }
+]
