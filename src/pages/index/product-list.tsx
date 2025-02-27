@@ -16,17 +16,19 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { FreeMode, Pagination } from "swiper";
 import { ItemSubject } from "./common/interFace";
+import { productsState } from "state";
+import { ProductItem } from "pages/listProducts/component/item_product_vertical";
 // import required modules
 
 export const ProductListContent: FC = () => {
-  // const products = useRecoilValue(productsState);
+  const products = useRecoilValue(productsState);
 
   return (
-    <Section title="Danh sách sản phẩm">
-      <Box  className="grid grid-cols-1 gap-4">
-        {/* {products.map((product) => (
-          <ProductItem key={product.id} product={product} />
-        ))} */}
+    <Section title="THẺ CÀO ĐIỆN THOẠI">
+      <Box className="grid grid-cols-1 gap-4">
+        {products.map((product) => (
+          <ProductItem key={product.id} keyTitle="productItem" product={product} />
+        ))}
       </Box>
     </Section>
   );

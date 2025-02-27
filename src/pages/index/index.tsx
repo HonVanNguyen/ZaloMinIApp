@@ -16,7 +16,7 @@ import {
   SectionDataHome,
 } from "./common/interFace";
 import { getBlogsBySubject } from "./common/services";
-import { ProductList } from "./product-list";
+import { ProductList, ProductListContent, ProductListFallbackHorizontal, ProductListHorizonContent } from "./product-list";
 import { DashedLine } from "components/common/line";
 import { CardProfile } from "components/common/cardProfile";
 const HomePage: React.FunctionComponent = () => {
@@ -120,7 +120,10 @@ const HomePage: React.FunctionComponent = () => {
         >
           <CardProfile/>
           <Banner />
-          <DashedLine width={'70%'}/>
+          {/* <DashedLine width={'70%'}/> */}
+          <ProductListContent/>
+          {/* <ProductListHorizonContent/> */}
+          {/* <ProductListFallbackHorizontal/> */}
           {dataBlogs ? (
             <>
               {dataBlogs.map((blogs, index) => {

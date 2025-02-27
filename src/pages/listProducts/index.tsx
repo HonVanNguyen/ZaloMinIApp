@@ -29,7 +29,7 @@ const ListProductPage: React.FunctionComponent = () => {
           gap:'10px',
           background:'#fff'
         }}>
-          <ProductList title={keyTitle} horizontal={false} url="/home" /> 
+          <ProductList title={keyTitle} horizontal={true} url="/home" /> 
         </Box>
       </Box>
     </Page>

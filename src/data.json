@@ -1,0 +1,900 @@
+{
+  "sections": [
+    {
+      "id": "667ebe08-9fea-4cda-8ffa-2d3171b39154",
+      "data": [
+        {
+          "link": "MY_GIFT_ORDER",
+          "name": "Đơn quà của tôi",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/8da97e4d-2a5d-4590-9d04-493dbfb2470a.png",
+          "imageId": 371,
+          "typeRoute": "ROUTER"
+        },
+        {
+          "link": "MY_VOUCHER",
+          "name": "E-Voucher của tôi",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/56ace8a1-5b4a-471b-baa4-2d807fcfdf38.png",
+          "imageId": 372,
+          "typeRoute": "ROUTER"
+        },
+        {
+          "link": "SHARE_APP",
+          "name": "Chia sẻ",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/9f0eb19f-881d-4d77-a35b-77766b4d9ce4.png",
+          "imageId": 373,
+          "typeRoute": "ROUTER"
+        },
+        {
+          "link": "NEWS",
+          "name": "Tin tức",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/28eaa481-d842-44db-b3c6-79a3408e12de.png",
+          "imageId": 374,
+          "typeRoute": "ROUTER"
+        },
+        {
+          "link": "STORE_LIST",
+          "name": "Cửa hàng",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/10acd65f-a065-4efc-8f93-297102c698b0.png",
+          "imageId": 375,
+          "typeRoute": "ROUTER"
+        },
+        {
+          "link": "SURVEY",
+          "name": "Khảo sát",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/ad4cf476-7438-4d07-ba8d-c5301b1278e9.png",
+          "imageId": 376,
+          "typeRoute": "ROUTER"
+        },
+        {
+          "link": "https://aiwado.com/kazu-gain-gold.html",
+          "name": "Cẩm nang",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/77fa8c9f-8031-4ee2-aa1a-70056831c901.png",
+          "imageId": 377,
+          "typeRoute": "DEEP_LINK"
+        }
+      ],
+      "type": "NORMAL_SERVICE",
+      "title": "Dịch vụ"
+    },
+    {
+      "id": "675c6038-e706-40ec-b4f3-e2138768aeb6",
+      "data": [
+        {
+          "link": "EXCHANGE_GIFT",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/78cc808f-aeee-45a3-80c7-31ae4ea1f205.jpg",
+          "imageId": 381,
+          "typeRoute": "ROUTER"
+        },
+        {
+          "link": "https://aiwado.com/kazu-gain-gold.html",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/1f0c5f5a-6127-4f7e-b631-59a16e39b50f.jpg",
+          "imageId": 1072,
+          "typeRoute": "DEEP_LINK"
+        },
+        {
+          "link": "EXCHANGE_GIFT",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/490805a7-7fce-4f42-86d7-7920d47c5197.jpg",
+          "imageId": 383,
+          "typeRoute": "ROUTER"
+        },
+        {
+          "link": "EXCHANGE_GIFT",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/ab3a6a38-bc18-4ddf-927a-971775f34c6f.jpg",
+          "imageId": 384,
+          "typeRoute": "ROUTER"
+        },
+        {
+          "link": "https://aiwado.com/san-pham-cho-be",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/00d6e56d-fb1a-4106-814b-a6920c55977b.jpg",
+          "imageId": 617,
+          "typeRoute": "DEEP_LINK"
+        },
+        {
+          "link": "https://aiwado.com/san-pham-cho-nguoi-lon-tuoi",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/96d18d42-ce99-4559-9ffd-9f46992bdc34.jpg",
+          "imageId": 618,
+          "typeRoute": "DEEP_LINK"
+        }
+      ],
+      "type": "BANNER",
+      "title": "1"
+    },
+    {
+      "id": "470f4972-1030-48dd-bf0f-88dd47657912",
+      "data": {
+        "products": [
+          {
+            "onSale": false,
+            "id": 5,
+            "type": "SIMPLE",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 6,
+            "thumbnail": {
+              "id": 70,
+              "key": "images/2/3248de3f-14c3-45ba-8b3f-f8f194b89907.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/3248de3f-14c3-45ba-8b3f-f8f194b89907.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "Kazu Bio Gold +",
+                "description": "<p>Kazu Bio Gold - Sữa Mát Tiêu Hóa giúp trẻ Tiêu Hóa Thuận Lợi, Thông Minh Nhanh Nhẹn &amp; Phát Triển Toàn Diện.&nbsp;</p><p>Kazu Bio Gold bổ sung Lợi khuẩn Nhật Bản và Bộ 3 siêu chất xơ (GOS Nhật Bản, FOS và HMO) và Lysine, Vitamin nhóm B giúp sữa mát, tiêu hóa tốt, không táo bón và bảo vệ đường ruột non yếu của trẻ. DHA Nhật Bản chiết xuất từ Tảo tự nhiên vô cùng tinh khiết kết hợp với Taurin Nhật Bản, Choline, ARA, Omega 3, Omega 6 giúp trẻ hoàn thiện chức năng thần kinh, phát triển não bộ và thị giác.</p><p>Kazu Bio Gold *Đạt Tiêu Chuẩn dinh dưỡng của Bộ Y Tế Nhật Bản, đặc biệt được Hiệp hội trao đổi Y Tế Nhật Bản chứng nhận, tự hào mang đến cho con nguồn dinh dưỡng chuẩn Nhật.</p><p>Thông tin chi tiết: <a href=\"https://aiwado.com/kazu-bio-gold.html\" rel=\"noopener noreferrer\" target=\"_blank\">https://aiwado.com/kazu-bio-gold.html</a></p><p><strong>Để tham gia tích xu đổi quà thực hiện các bước sau:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà sản phẩm Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin địa chỉ giao hàng</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và Quà tặng sẽ được giao miễn phí tới Ba/Mẹ&nbsp;</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Official</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p>",
+                "shortDescription": "Kazu Bio Gold - Sữa Mát Tiêu Hóa giúp trẻ Tiêu Hóa Thuận Lợi, Thông Minh Nhanh Nhẹn & Phát Triển Toàn Diện.",
+                "slug": "KAZUBG0+-810I"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 3,
+                "categoryDetails": [
+                  {
+                    "id": 3,
+                    "lang": "VN",
+                    "desc": "là các sản phẩm sửa của aiwado",
+                    "name": "Sản Phẩm Aiwado",
+                    "slug": "San-Pham-Aiwado"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "Sản Phẩm Aiwado",
+                "description": "Sản Phẩm Aiwado"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 504200,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 288,
+              "salePoint": 0
+            }
+          },
+          {
+            "onSale": false,
+            "id": 96,
+            "type": "SIMPLE",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 99,
+            "thumbnail": {
+              "id": 673,
+              "key": "images/2/21d89b53-1530-4573-8ee3-9c54e82a4010.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/21d89b53-1530-4573-8ee3-9c54e82a4010.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "Kazu Gain Gold +",
+                "description": "<p>Kazu Gain Gold - Số 1 Sữa Mát Tăng Cân giúp trẻ Tiêu Hóa Tốt, Tăng Cân Chuẩn &amp; Phát Triển Toàn Diện.&nbsp;</p><p>Kazu Gain Gold bổ sung Lợi khuẩn Nhật Bản và Bộ 3 siêu chất xơ (GOS Nhật Bản, FOS và HMO), cùng Hệ Đạm Quý (Đạm Whey, Đạm Sữa) &amp; MCT cao cấp giúp con ổn định hệ tiêu hóa, hấp thu tốt từ đó tăng cân chuẩn.</p><p>Kazu Gain Gold *Đạt Tiêu Chuẩn dinh dưỡng của Bộ Y Tế Nhật Bản, đặc biệt được Hiệp hội trao đổi Y Tế Nhật Bản chứng nhận, tự hào mang đến cho con nguồn dinh dưỡng chuẩn Nhật.</p><p>Thông tin chi tiết: <a href=\"https://aiwado.com/kazu-gain-gold.html\" rel=\"noopener noreferrer\" target=\"_blank\">https://aiwado.com/kazu-gain-gold.html</a></p><p><strong>Để tham gia tích xu đổi quà thực hiện các bước sau:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà sản phẩm Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin địa chỉ giao hàng</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và Quà tặng sẽ được giao miễn phí tới Ba/Mẹ&nbsp;</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Official</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p>",
+                "shortDescription": "Kazu Gain Gold +",
+                "slug": "KAZUGG0+-810I"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 3,
+                "categoryDetails": [
+                  {
+                    "id": 3,
+                    "lang": "VN",
+                    "desc": "là các sản phẩm sửa của aiwado",
+                    "name": "Sản Phẩm Aiwado",
+                    "slug": "San-Pham-Aiwado"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "Sản Phẩm Aiwado",
+                "description": "Sản Phẩm Aiwado"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 489700,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 288,
+              "salePoint": 0
+            }
+          },
+          {
+            "onSale": false,
+            "id": 95,
+            "type": "SIMPLE",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 98,
+            "thumbnail": {
+              "id": 672,
+              "key": "images/2/3b0f8eed-a5f9-4bb1-be41-56589b95b580.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/3b0f8eed-a5f9-4bb1-be41-56589b95b580.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "Kazu Gain Gold ++",
+                "description": "<p>Kazu Gain Gold - Số 1 Sữa Mát Tăng Cân giúp trẻ Tiêu Hóa Tốt, Tăng Cân Chuẩn &amp; Phát Triển Toàn Diện.&nbsp;</p><p>Kazu Gain Gold bổ sung Lợi khuẩn Nhật Bản và Bộ 3 siêu chất xơ (GOS Nhật Bản, FOS và HMO), cùng Hệ Đạm Quý (Đạm Whey, Đạm Sữa) &amp; MCT cao cấp giúp con ổn định hệ tiêu hóa, hấp thu tốt từ đó tăng cân chuẩn.</p><p>Kazu Gain Gold *Đạt Tiêu Chuẩn dinh dưỡng của Bộ Y Tế Nhật Bản, đặc biệt được Hiệp hội trao đổi Y Tế Nhật Bản chứng nhận, tự hào mang đến cho con nguồn dinh dưỡng chuẩn Nhật.</p><p>Thông tin chi tiết: <a href=\"https://aiwado.com/kazu-gain-gold.html\" rel=\"noopener noreferrer\" target=\"_blank\">https://aiwado.com/kazu-gain-gold.html</a></p><p><strong>Để tham gia tích xu đổi quà thực hiện các bước sau:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà sản phẩm Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin địa chỉ giao hàng</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và Quà tặng sẽ được giao miễn phí tới Ba/Mẹ&nbsp;</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Official</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p>",
+                "shortDescription": "Kazu Gain Gold ++",
+                "slug": "KAZUGG1+-810I"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 3,
+                "categoryDetails": [
+                  {
+                    "id": 3,
+                    "lang": "VN",
+                    "desc": "là các sản phẩm sửa của aiwado",
+                    "name": "Sản Phẩm Aiwado",
+                    "slug": "San-Pham-Aiwado"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "Sản Phẩm Aiwado",
+                "description": "Sản Phẩm Aiwado"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 486600,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 288,
+              "salePoint": 0
+            }
+          },
+          {
+            "onSale": false,
+            "id": 94,
+            "type": "SIMPLE",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 97,
+            "thumbnail": {
+              "id": 671,
+              "key": "images/2/68353ba6-207c-47a4-851e-84ad589fc3f4.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/68353ba6-207c-47a4-851e-84ad589fc3f4.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "Kazu Gain Gold 2+",
+                "description": "<p>Kazu Gain Gold - Số 1 Sữa Mát Tăng Cân giúp trẻ Tiêu Hóa Tốt, Tăng Cân Chuẩn &amp; Phát Triển Toàn Diện.&nbsp;</p><p>Kazu Gain Gold bổ sung Lợi khuẩn Nhật Bản và Bộ 3 siêu chất xơ (GOS Nhật Bản, FOS và HMO), cùng Hệ Đạm Quý (Đạm Whey, Đạm Sữa) &amp; MCT cao cấp giúp con ổn định hệ tiêu hóa, hấp thu tốt từ đó tăng cân chuẩn.</p><p>Kazu Gain Gold *Đạt Tiêu Chuẩn dinh dưỡng của Bộ Y Tế Nhật Bản, đặc biệt được Hiệp hội trao đổi Y Tế Nhật Bản chứng nhận, tự hào mang đến cho con nguồn dinh dưỡng chuẩn Nhật.</p><p>Thông tin chi tiết: <a href=\"https://aiwado.com/kazu-gain-gold.html\" rel=\"noopener noreferrer\" target=\"_blank\">https://aiwado.com/kazu-gain-gold.html</a></p><p><strong>Để tham gia tích xu đổi quà thực hiện các bước sau:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà sản phẩm Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin địa chỉ giao hàng</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và Quà tặng sẽ được giao miễn phí tới Ba/Mẹ&nbsp;</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Official</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p>",
+                "shortDescription": "Kazu Gain Gold 2+",
+                "slug": "KAZUGG2+-810I"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 3,
+                "categoryDetails": [
+                  {
+                    "id": 3,
+                    "lang": "VN",
+                    "desc": "là các sản phẩm sửa của aiwado",
+                    "name": "Sản Phẩm Aiwado",
+                    "slug": "San-Pham-Aiwado"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "Sản Phẩm Aiwado",
+                "description": "Sản Phẩm Aiwado"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 480400,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 288,
+              "salePoint": 0
+            }
+          },
+          {
+            "onSale": false,
+            "id": 93,
+            "type": "SIMPLE",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 96,
+            "thumbnail": {
+              "id": 670,
+              "key": "images/2/321e5da1-7b8c-432f-b589-7793d8a8177c.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/321e5da1-7b8c-432f-b589-7793d8a8177c.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "Shizu Colos Gold +",
+                "description": "<p>Shizu Colos Gold - Sữa Mát giúp trẻ Đề Kháng Khỏe &amp; Phát Triển Toàn Diện.</p><p>Đề Kháng Khỏe: IgG từ sữa non, HMO, Kẽm, Selen, Vitamin C; Tiêu Hóa Tốt: Chất xơ hòa tan FOS/Inulin, Lysine, Vitamin nhóm B; Phát Triển Toàn Diện: DHA Nhật Bản từ Tảo tự nhiên, Taurine Nhật Bản, Canxi Nhật Bản.</p><p>Đặc biệt, Shizu Colos Gold bổ sung chiết xuất Tổ yến cao cấp từ Nhật Bản giúp bồi bổ cơ thể, tăng cường miễn dịch &amp; tăng cân khỏe mạnh.</p><p>Thông tin chi tiết: <a href=\"https://aiwado.com/shizu-colos-gold.html\" rel=\"noopener noreferrer\" target=\"_blank\">https://aiwado.com/shizu-colos-gold.html</a></p><p><strong>Để tham gia tích xu đổi quà thực hiện các bước sau:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà sản phẩm Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin địa chỉ giao hàng</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và Quà tặng sẽ được giao miễn phí tới Ba/Mẹ&nbsp;</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Official</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p>",
+                "shortDescription": "Shizu Colos Gold +",
+                "slug": "SHIZCLG0+-810I"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 3,
+                "categoryDetails": [
+                  {
+                    "id": 3,
+                    "lang": "VN",
+                    "desc": "là các sản phẩm sửa của aiwado",
+                    "name": "Sản Phẩm Aiwado",
+                    "slug": "San-Pham-Aiwado"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "Sản Phẩm Aiwado",
+                "description": "Sản Phẩm Aiwado"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 461800,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 240,
+              "salePoint": 0
+            }
+          }
+        ],
+        "maxLength": 5,
+        "categoryId": 3,
+        "productGroup": {
+          "label": "Sản Phẩm Aiwado",
+          "value": 3
+        }
+      },
+      "type": "HORIZONTAL_PRODUCT_LIST_2",
+      "title": "Sản Phẩm Aiwado"
+    },
+    {
+      "id": "4d0a74e9-00d3-42d7-893c-4c9b250dfd0f",
+      "data": {
+        "products": [
+          {
+            "onSale": false,
+            "id": 83,
+            "type": "VIRTUAL",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 86,
+            "thumbnail": {
+              "id": 491,
+              "key": "images/2/bb2ed700-4752-4fa9-afd0-06d750da2885.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/bb2ed700-4752-4fa9-afd0-06d750da2885.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "E-Voucher TopZone",
+                "description": "<p><strong>Hướng dẫn sử dụng:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà E-Voucher Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và nhận thông báo đổi thành công&nbsp;</p><p><strong>Bước 5:</strong> Vào trang \"E-Voucher của tôi\" sau đó chọn E-Voucher vừa đổi để sử dụng.</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Official</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p><p><strong style=\"color: red;\">❖ <u>Điều khoản sử dụng</u>:</strong></p><ul><li>eGift có thể sử dụng tại toàn bộ hệ thống cửa hàng <strong>TopZone&nbsp;và chuỗi Thế Giới Di Động, Nhà thuốc An Khang, Điện Máy Xanh, Bách Hoá Xanh, AVASport</strong>. Vui lòng xem thông tin cửa hàng tại \"Vị trí cửa hàng\".</li><li>Khách hàng được xuất hóa đơn VAT tương ứng với giá trị voucher.</li><li>Quý khách có thể sử dụng nhiều eGift trên cùng 1 hoá đơn.</li><li>eGift được áp dụng cùng các chương trình khuyến mãi khác và không sử dụng cho dịch vụ thu hộ điện, nước, các dịch vụ tài chính trả góp</li><li>eGift chỉ được áp dụng trực tiếp tại CH, không áp dụng online.</li><li>eGift chỉ có giá trị sử dụng một lần. Không chấp nhận eGift quá hạn sử dung, trạng thái “Đã sử dụng”.</li><li>Vui lòng xuất trình mã eGift cho nhân viên tại quầy trước khi thanh toán để được áp dụng eGift.</li><li>eGift sẽ không được hoàn lại tiền thừa và không có giá trị quy đổi thành tiền mặt. Khách hàng có thể được yêu cầu trả thêm tiền nếu sử dụng quá giá trị của eGift.</li><li>Khách hàng có trách nhiệm bảo mật thông tin eGift sau khi đặt mua. Urbox sẽ không chịu trách nhiệm hoàn trả các eGift bị mất hoặc ở trạng thái “Đã sử dụng” sau thời gian eGift được xuất ra với bất kì lý do gì.</li><li>UrBox không chịu trách nhiệm đối với chất lượng của sản phẩm hoặc dịch vụ được cung cấp cũng như đối với các tranh chấp về sau giữa khách hàng và<strong> TopZone.</strong></li><li>UrBox có quyền sửa chữa hoặc thay đổi điều khoản và điều kiện mà không thông báo trước.</li></ul><p><br></p><p><strong style=\"color: red;\">❖ <u>Địa chỉ</u>:</strong></p><p><br></p><p>● 191 Điện Biên Phủ, P.6, Q.3, TP.Hồ Chí Minh</p><p><br></p><p>● 670 Âu Cơ, P.10, Q.Tân Bình, TP.Hồ Chí Minh</p><p><br></p><p>● 291 Nguyễn Văn Cừ, P.Ngọc Lâm, Q.Long Biên, TP.Hà Nội</p><p><br></p><p>● 238 Nguyễn Trãi, P.Trung Văn, Q.Nam Từ Liêm, TP.Hà Nội</p><p><br></p><p>● Số 170A Trần Hưng Đạo, P.Mỹ Xuyên, TP.Long Xuyên, T.An Giang</p><p><br></p><p>● Số 537 đường Hạ Long, P.Bãi Cháy, TP.Hạ Long, T.Quảng Ninh</p><p><br></p><p>● số 1/1 Phạm Văn Thuận, P.Tam Hiệp, TP.Biên Hòa, T.Đồng Nai</p><p><br></p><p>● Số 63A/1, Khu phố 1A, P.An Phú, TX.Thuận An, T.Bình Dương</p><p><br></p><p>● Số 477 Lương Ngọc Quyến, P.Phan Đình Phùng, TP.Thái Nguyên, T.Thái Nguyên</p><p><br></p><p>● 163-165 Khánh Hội, P.13, Q.4, TP.Hồ Chí Minh</p><p><br></p><p>● Số 98 đường Trần Phú, P.Vĩnh Thạnh, TP.Rạch Giá, T.Kiên Giang</p><p><br></p><p>● Số 583 Cách Mạng Tháng Tám, khu phố 2, P.3, TP.Tây Ninh, T.Tây Ninh</p><p><br></p><p>● 290 Trương Công Định, P.8, TP.Vũng Tàu, T.Bà Rịa - Vũng Tàu</p><p><br></p><p>● 03 Quang Trung, P.Vạn Thạnh, TP.Nha Trang, T.Khánh Hòa</p><p><br></p><p>● Số 80 Trần Hưng Đạo, P.Phú Trinh, TP.Phan Thiết, T.Bình Thuận</p><p><br></p><p>● Số 620-622-624-626-628 Nguyễn Oanh, P.6, Q.Gò Vấp, TP.Hồ Chí Minh</p><p><br></p><p>● Số 08 Hoà Bình, P.An Cư, Q.Ninh Kiều, TP.Cần Thơ</p><p><br></p><p>● 328-328A đường Chánh Hưng, P.5, Q.8, TP.Hồ Chí Minh</p><p><br></p><p>● Số 210 đường Lê Thái Tổ, P.2, TP.Vĩnh Long, T.Vĩnh Long</p><p><br></p><p>● Số 49/2 đường Ấp Bắc, P.5, TP.Mỹ Tho, T.Tiền Giang</p><p><br></p><p>● 32/3 Lê Văn Khương, P.Thới An, Q.12, TP.Hồ Chí Minh</p><p><br></p><p>● Số 51 - 53 - 55 Phùng Hưng, P.Phúc La, Q.Hà Đông, TP.Hà Nội</p><p><br></p><p>● Số 591B-592B2 Đại Lộ Đồng Khởi, P.Phú Khương, TP.Bến Tre, T.Bến Tre</p><p><br></p><p>● Số 498 Xã Đàn, P.Nam Đồng, Q.Đống Đa, TP.Hà Nội</p><p><br></p><p>● 428 Nguyễn Thị Thập, P.Tân Quy, Q.7, TP.Hồ Chí Minh</p><p><br></p><p>● Số 207 đường Hùng Vương, P.Xuân Hòa, TP.Long Khánh, T.Đồng Nai</p><p><br></p><p>● Số 282 Đà Nẵng, P.Vạn Mỹ, Q.Ngô Quyền, TP.Hải Phòng</p><p><br></p><p>● Số 193-195 đường Cầu Diễn, P.Phúc Diễn, Q.Bắc Từ Liêm, TP.Hà Nội</p><p><br></p><p>● 267A Cách mạng tháng tám, P.Phước Hiệp, TP.Bà Rịa, T.Bà Rịa - Vũng Tàu</p><p><br></p><p>● 351 Nguyễn Hữu Thọ, P.Hoà Cường Bắc, Q.Hải Châu, TP.Đà Nẵng</p><p><br></p><p>● Số 7, đường Quang Trung, P.Quang Trung, TP.Vinh, T.Nghệ An</p><p><br></p><p>● Số 209 Đường Trần Phú, P.Cẩm Tây, TP.Cẩm Phả, T.Quảng Ninh</p><p><br></p><p>● 229 Nguyễn Thị Tú, P.Bình Hưng Hòa B, Q.Bình Tân, TP.Hồ Chí Minh</p><p><br></p><p>● Số 312 - 312A Thống Nhất, P.Phủ Hà, TP.Phan Rang-Tháp Chàm, T.Ninh Thuận</p><p><br></p><p>● Số 59 Đường Điện Biên, Tổ 15, P.Cửa Bắc, TP.Nam Định, T.Nam Định</p><p><br></p><p>● Số 390-392-394-396 đường Lê Duẩn, P.Ea Tam, TP.Buôn Ma Thuột, T.ĐăkLăk</p><p><br></p><p>● 153B Phan Đăng Lưu, P.2, Q.Phú Nhuận, TP.Hồ Chí Minh</p><p><br></p><p>● 136 Nguyễn Thái Học, P.Phạm Ngũ Lão, Q.1, TP.Hồ Chí Minh</p><p><br></p><p>● 340 Tô Ký, P.Tân Chánh Hiệp, Q.12, TP.Hồ Chí Minh</p><p><br></p><p>● Số 313 Nguyễn Huệ, P.2, TX.Gò Công, T.Tiền Giang</p><p><br></p><p>● Số 387 - 389 - 391 Ngọc Hồi, TT.Văn Điển, H.Thanh Trì, TP.Hà Nội</p><p><br></p><p>● Số 52 Nguyễn Trãi, P.9, TP.Cà Mau, T.Cà Mau</p><p><br></p><p>● Đường Tỉnh lộ 10, X.Đức Hoà Hạ, H.Đức Hoà, TP.Long An</p><p><br></p><p>● 212-214 Phan Chu Trinh, P.An Mỹ, TP.Tam Kỳ, T.Quảng Nam</p><p><br></p><p>● Số 77 Đại lộ Bình Dương, P.Phú Thọ, TP.Thủ Dầu Một, T.Bình Dương</p><p><br></p><p>● Số 2A đường Trần Hưng Đạo, khóm 6, P.5, TP.Cà Mau, T.Cà Mau</p><p><br></p><p>● 05 Nguyễn Tất Thành, P.Hoa Lư, TP.Pleiku, T.Gia Lai</p><p><br></p><p>● Số 320 đường Trần Hưng Đạo, P.Đại Phúc, TP.Bắc Ninh, T.Bắc Ninh</p><p><br></p><p>● Số 564-566 đường Trần Hưng Đạo, P.Thị Nại, TP.Quy Nhơn, T.Bình Định</p><p><br></p><p>● Số 1-3-5 đường Trần Nhân Tông, P.Quán Trữ, Q.Kiến An, TP.Hải Phòng</p><p><br></p><p>● Số 237 Nguyễn An Ninh, khu phố Bình Minh 2, P.Dĩ An, TX.Dĩ An, T.Bình Dương</p>",
+                "shortDescription": "E-Voucher TopZone",
+                "slug": "E-Voucher-TopZone"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 5,
+                "categoryDetails": [
+                  {
+                    "id": 5,
+                    "lang": "VN",
+                    "desc": "là voucher đồng bộ từ Urbox",
+                    "name": "Phiếu Mua Hàng Điện Tử",
+                    "slug": "Phieu-Mua-Hang-DJien-Tu"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "voucher",
+                "description": "nhóm vouchẻ"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 100000,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 144,
+              "salePoint": 0
+            }
+          },
+          {
+            "onSale": false,
+            "id": 82,
+            "type": "VIRTUAL",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 85,
+            "thumbnail": {
+              "id": 489,
+              "key": "images/2/9bfaff45-5ac4-494a-930c-5b179cc6088d.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/9bfaff45-5ac4-494a-930c-5b179cc6088d.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "E-Voucher Tiki",
+                "description": "<p><strong>Hướng dẫn sử dụng:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà E-Voucher Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và nhận thông báo đổi thành công&nbsp;</p><p><strong>Bước 5:</strong> Vào trang \"E-Voucher của tôi\" sau đó chọn E-Voucher vừa đổi để sử dụng.</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Official</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p><p><strong style=\"color: red;\">❖ <u>Điều khoản sử dụng</u>:</strong></p><ul><li>Khách hàng chuyển đổi eGift thành Tiki xu để sử dụng.</li><li>Cách nạp Tiki xu: truy cập vào Tiki link&nbsp;<strong>https://tiki.vn/customer/reward/</strong>&nbsp;.</li><li>Chọn nhà cung cấp mã quà tặng \"UrBox\" và nhập mã eGift&nbsp;vào mục \"Mã quà tặng để chuyển thành Tiki xu\".</li><li><strong>Tiki Xu áp dụng cho các sản phẩm tại website&nbsp;</strong><a href=\"https://tiki.vn/\" rel=\"noopener noreferrer\" target=\"_blank\"><strong><u>https://tiki.vn/</u></strong></a><strong>&nbsp;và không được áp dụng đối với các sản phẩm thuộc ngành hàng Dịch vụ tiện ích như:</strong>&nbsp;<strong>Thẻ cào điện thoại; thẻ game; thẻ 3G/4G, Phiếu quà tặng, Ticketbox, Thanh toán hóa đơn, Vé xe bus, Giftpop, Vé máy bay...</strong></li><li><strong>ĐKSD Tiki xu có thể được thay đổi bởi Tiki, xem thông tin chi tiết tại:&nbsp;</strong><a href=\"http://tiki%20help%20center/\" rel=\"noopener noreferrer\" target=\"_blank\"><strong><u>Tiki Help Center</u></strong></a></li></ul><p><br></p>",
+                "shortDescription": "E-Voucher Tiki",
+                "slug": "E-Voucher-Tiki"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 5,
+                "categoryDetails": [
+                  {
+                    "id": 5,
+                    "lang": "VN",
+                    "desc": "là voucher đồng bộ từ Urbox",
+                    "name": "Phiếu Mua Hàng Điện Tử",
+                    "slug": "Phieu-Mua-Hang-DJien-Tu"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "voucher",
+                "description": "nhóm vouchẻ"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 100000,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 144,
+              "salePoint": 0
+            }
+          },
+          {
+            "onSale": false,
+            "id": 78,
+            "type": "VIRTUAL",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 81,
+            "thumbnail": {
+              "id": 433,
+              "key": "images/2/ec7e13c7-e9e6-4f39-b46e-fb8e7f68b45f.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/ec7e13c7-e9e6-4f39-b46e-fb8e7f68b45f.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "E-Voucher Medicare",
+                "description": "<p><strong>Hướng dẫn sử dụng:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà E-Voucher Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và nhận thông báo đổi thành công&nbsp;</p><p><strong>Bước 5:</strong> Vào trang \"E-Voucher của tôi\" sau đó chọn E-Voucher vừa đổi để sử dụng.</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Official</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p><p><br></p><p><strong style=\"color: red;\">❖ <u>Địa chỉ</u>:</strong></p><p><br></p><p>● 254 Bis Trần Hưng Đạo, P.Nguyễn Cư Trinh, Q.1, TP.Hồ Chí Minh</p><p><br></p><p>● 720K Thảo Điền, P.Thảo Điền, Q.2, TP.Hồ Chí Minh</p><p><br></p><p>● Tầng 1 Siêu thị Lotte Mart, Lô B-03, Khu Thương Mại AMATA Quốc Lộ 1A, P.Long Bình, TP.Biên Hòa, T.Đồng Nai</p><p><br></p><p>● PT4A4 Tầng 4 LotteMart Phan Thiết KDC Hùng Vương 1, P.Phú Thủy, TP.Phan Thiết, T.Bình Thuận</p><p><br></p><p>● Shop 33B Lầu 1 Siêu Thị Big C Cần Thơ, Lô số 1, Khu dân cư Hưng Phú 1, P.Hưng Phú, Q.Cái Răng, TP.Cần Thơ</p><p><br></p><p>● Shop 23 Tầng trệt BIGC Đà Lạt, Quảng trường Lâm Viên, P. 10, TP.Đà Lạt, T.Lâm Đồng</p><p><br></p><p>● Shop 1&amp;2 Tầng trệt BIGC Quy Nhơn Khu đô thị xanh Vũng Chua, P. Ghềnh Ráng, TP.Quy Nhơn, T.Bình Định</p><p><br></p><p>● DANA3E5 Tầng 3 LotteMart Đà Nẵng, Số 6 Đường Nại Nam, P.Hoà Cường Bắc, Q.Hải Châu, TP.Đà Nẵng</p><p><br></p><p>● Shop G3 Tầng trệt TTTM Aeon Mall Bình Dương Canary, Khu phức hợp Canary Đại Lộ Bình Dương, P. Bình Hòa, TX.Thuận An, T.Bình Dương</p><p><br></p><p>● Shop 06, Tầng trệt BIGC Nha Trang Lô số 4, Đường 19/5, KĐT Vĩnh Điềm Trung, X.Vĩnh Hiệp, TP.Nha Trang, T.Khánh Hoà</p><p><br></p><p>● 3F8 Tầng 3 Lotte Mart, Góc Đường 3/2-Thi Sách, P.8, TP.Vũng Tàu, T.Bà Rịa Vũng Tàu</p><p><br></p><p>● Shop 8-9 Tầng trệt BIGC Đà Nẵng 255-257 Đường Hùng Vương, P.Vĩnh Trung, Q.Thanh Khê, TP.Đà Nẵng</p><p><br></p><p>● Shop 7A-7B Tầng trệt Big C Hạ Long, Cột 5, P.Hồng Hải, TP.Hạ Long, T.Quảng Ninh</p><p><br></p><p>● Lô 1F Tầng trệt Lotte Mart, Số 84 Mậu Thân, P.An Hòa, Q.Ninh Kiều, TP.Cần Thơ</p><p><br></p><p>● Shop L2-15 Tầng 2, TTTM Vincom, số 50 Lê văn Việt, P.Hiệp Phú, Q.9, TP.Hồ Chí Minh</p><p><br></p><p>● Số 79 Trần Khắc Chân, P.Tân Định, Q.1, TP. Hồ Chí Minh</p><p><br></p><p>● Lô L2-02 Tầng 1, Vincom Plaza Trà Vinh Đường Trần Hưng Đạo, Khóm 2, P.2, TP.Trà Vinh, T.Trà Vinh</p><p><br></p><p>● Lô L2-02 Tầng 1, Vincom Plaza Vĩnh Long Số 55 Phạm Thái Bường, P.4, TP.Vĩnh Long, T.Vĩnh Long</p><p><br></p><p>● Shop L3-10 Tầng 2, Vincom Plaza Kiên Giang, Lô A12 Đường Cô Bắc , P.Vĩnh Bảo, TP.Rạch Giá, T.Kiên Giang</p><p><br></p><p>● Shop 3-4-5, Tầng trệt, Aeon Citi Mart, Lô B14, Đường Ba Tháng Hai, P.Vĩnh Bảo, TP.Rạch Giá, T.Kiên Giang</p><p><br></p><p>● Shop L2-02, Tầng 1, TTTM Vincom Plaza Hậu Giang, số 01 Đường Ba Tháng Hai, KV3 P.5, TP.Vị Thanh, T.Hậu Giang</p><p><br></p><p>● 625-627, Cách Mạng Tháng Tám, P.3, TP.Tây Ninh, T.Tây Ninh</p><p><br></p><p>● Shop L2-02B, Tầng 2, TTTM Vincom Plaza Hà Tĩnh, Góc ngã tư Đường Hàm Nghị - Hà Huy Tập, P.Hà Huy Tập, TP.Hà Tĩnh, T.Hà Tĩnh</p><p><br></p><p>● 500B4 Đại lộ Đồng Khởi, P.Phú Khương, TP. Bến Tre, T.Bến Tre</p><p><br></p><p>● Shop L2-06, Tầng 2, TTTM Vincom Plaza Lê Thánh Tông, số 01 Lê Thánh Tông, P.Máy Tơ, Q.Ngô Quyền, TP.Hải Phòng</p><p><br></p><p>● Shop L3-7, Tầng L3, TTTM Vincom Plaza Hạ Long, Khu Cột Đồng Hồ, P.Bạch Đằng, TP.Hạ Long, T.Quảng Ninh</p><p><br></p><p>● 77 Nguyễn Đình Chiểu, P.Hàm Tiến, TP. Phan Thiết, T.Bình Thuận</p><p><br></p><p>● Shop L1-17, Tầng 1, TTTM Vincom Plaza Việt Trì, số nhà 02, Đường Hùng Vương, P.Tiên Cát, TP.Việt Trì, T.Phú Thọ</p><p><br></p><p>● Shop L2-08, Tầng 2, TTTM Vincom Plaza Tuy Hòa - Ngã tư Đường Trần Phú - Hùng Vương, P.7, TP.Tuy Hòa, T. Phú Yên</p><p><br></p><p>● Shop L3-10, Tầng L3, TTTM Vincom Lê Thánh Tông, Số 44-46 Đường Lê Thánh Tông, P.Lộc Thọ, TP.Nha Trang, T.Khánh Hòa</p><p><br></p><p>● Shop L1-06B, Tầng L1, TTTM Vincom Plus Uông Bí Khu đô thị Yên Thanh, P.Yên Thanh, TP.Uông Bí, T.Quảng Ninh</p><p><br></p><p>● Shop L3-12, Tầng L3, Trung tâm thương mại Vincom Plaza Long Xuyên Số 1242 Trần Hưng Đạo, P.Mỹ Bình, TP.Long Xuyên, T.An Giang</p><p><br></p><p>● Shop L1-10A, Tầng L1, TTTM Vincom Plaza Lý Bôn 460 Lý Bôn, P.Đề Thám, TP.Thái Bình, T.Thái Bình</p><p><br></p><p>● Shop L2-03, Tầng L2, TTTM Vincom Plaza Bảo Lộc. Số 83 Đường Lê Hồng Phong, P.1, TP. Bảo Lộc, T.Lâm Đồng</p><p><br></p><p>● Shop L3-01, Tầng L3, TTTM Vincom Plaza Trần Phú Thanh Hóa Số 27 Đường Trần Phú, P.Điện Biên, TP.Thanh Hóa, T.Thanh Hóa</p><p><br></p><p>● Shop L3-04, tầng 3, TTTM Vincom Plaza Huế, Số 50A Hùng Vương, P.Phú Nhuận, TP. Huế, T.Thừa Thiên Huế.</p><p><br></p><p>● Shop L1-01B, tầng trệt, TTTM Vincom Plaza Đồng Hới, Đường Quách Xuân Kỳ, P.Hải Đình, TP.Đồng Hới, T.Quảng Bình.</p><p><br></p><p>● Lô L2-02-03, Tầng L2, TTTM Vincom Plaza Sơn La Đường Trường Chinh, P.Quyết Thắng, TP.Sơn La, T.Sơn La</p><p><br></p><p>● Lô L2-06, tầng L2 TTTM Vincom MXM Thái Nguyên, 60 Thái Nguyên, P.Phương Sài, TP.Nha Trang, T.Khánh Hòa</p><p><br></p><p>● Shop L3 - 08, Tầng L3, TTTM Thái Nguyên Đường Lương Ngọc Quyến, P.Hoàng Văn Thụ, TP.Thái Nguyên, T.Thái Nguyên</p><p><br></p><p>● Shop T2-02B tầng 2 Centre Mall Củ Chi, Đường T. Lộ 8, X.Trung An, H.Củ Chi, TP.Hồ Chí Minh</p><p><br></p><p>● Shop L2-08 tầng L2 Trung Tâm Thương Mai Vincom Bắc Ninh Ngã 6 Lý Thái Tổ và Trần Hưng Đạo, P.Suối Hoa, TP.Bắc Ninh, T.Bắc Ninh</p><p><br></p><p>● Shop L2-02-03, Tầng 2A, TTTM Vincom Lạng Sơn 2A Hùng Vương, P.Chi Lăng, TP.Lạng Sơn, T.Lạng Sơn</p><p><br></p><p>● Shop L2-06-07, tầng L2, TTTM Vincom Phủ Lý 60 Biên Hòa, P.Minh Khai, TP.Phủ Lý, T.Hà Nam</p><p><br></p><p>● Shop B1-18, tầng B2, TTTM Vincom Landmark 81 720A Điện Biên Phủ, P.22, Q.Bình Thạnh, TP.Hồ Chí Minh</p><p><br></p><p>● Shop L3-01A, Tầng L3, TTTM Vincom Thảo Điền 161 Xa Lộ Hà Nội, P.Thảo Điền, Q.2, TP.Hồ Chí Minh</p><p><br></p><p>● Shop L3-06-07, tầng L3, TTTM Vincom Hùng Vương Số 2 Hùng Vương, P.Thới Bình, Q.Ninh Kiều, TP.Cần Thơ</p><p><br></p><p>● Shop L1-07, tầng L1, TTTM Vincom Tuyên Quang 260 Quang Trung, P.Phan Thiết, TP.Tuyên Quang, T.Tuyên Quang</p><p><br></p><p>● Shop L3-06, tầng L3, TTTM Vincom Yên Bái Công viên Yên Hòa, Đường Thành Công và Đường Tô Hiến Thành, P.Nguyễn Thái Học, TP.Yên Bái, T.Yên Bái</p><p><br></p><p>● Shop L2-02 tầng L2, TTTM Vincom Quảng Ngãi, 26 Lê Thánh Tôn, P.Nghĩa Chánh, TP.Quảng Ngãi, T. Quảng Ngãi</p><p><br></p><p>● Shop L2-07, tầng 1, TTTM Vincom Cà Mau Khu phố thương mại &amp; TTTM Cà Mau, P.1, TP.Cà Mau, T.Cà Mau</p><p><br></p><p>● 625-627 CMT8, P.3, TP.Tây Ninh, T.Tây Ninh</p><p><br></p><p>● Shop L2-07,TTTM Vincom Phan Rang, 122 Đường 16/4, P.Mỹ hải, TP.Phan Rang-Tháp Chàm, T.Ninh Thuận.</p><p><br></p><p>● Lô B1-02, tầng B1, TTTM Vincom Plaza Xuân Khánh Số 209 Đường Ba Mươi Tháng Tư, P.Xuân Khánh, Q.Ninh Kiều, TP.Cần Thơ</p><p><br></p><p>● Shop B1-02, tầng B1, TTTM Lotte Mart Cầu Giấy 302 Cầu Giấy, P.Dịch Vọng, Q.Cầu Giấy, TP.Hà Nội</p><p><br></p><p>● S64, tầng 2, Trung Tâm Mua sắm Aeon Tân Phú Celadon 30 Bờ Bao Tân Thắng, P.Sơn Kỳ, Q.Tân Phú, TP.Hồ Chí Minh</p><p><br></p><p>● Lô L2 -06, Tầng L2, TTTM Vincom Plaza Móng Cái Đại lộ Hòa Bình, P.Trần Phú, TP.Móng Cái, T.Quảng Ninh</p><p><br></p><p>● Lô L2-06-07, tầng L2 ,TTTM Vincom Plaza Hòa Bình, P.Đồng Tiến, TP.Hòa Bình, T.Hòa Bình</p><p><br></p><p>● Lô L3-04, tầng L3, TTTM Vincom Plaza, Tòa nhà Vincom Plaza Đà Nẵng, số 910A Ngô Quyền, P.An Hải Bắc, Q.Sơn Trà,TP.Đà Nẵng</p><p><br></p><p>● Tầng L3, Vincom Cao Lãnh, số 02 Đường 30 Tháng 4, P.1, TP.Cao Lãnh, T.Đồng Tháp</p><p><br></p><p>● Lô L3-07 tầng L3 TTTM Vincom Plaza Dĩ An, Đường DT743, TX.Dĩ An, T.Bình Dương</p><p><br></p><p>● Lô L2.06-07 tầng L2 TTTM Vincom Plaza Cẩm Phả, QL18, P.Cẩm Đông, TP.Cẩm Phả, T.Quảng Ninh</p><p><br></p><p>● Lô L2.06 tầng L2 TTTM Vincom Plaza Bắc Kạn, tổ 8A, P.Đức Xuân, TP.Bắc Kạn, T.Bắc Kạn</p><p><br></p><p>● Lô L2.06-07 tầng L2 TTTM Vincom Plaza Sóc Trăng, Góc Đường Trần Hưng Đạo - Lý Tự Trọng, P.2, TP.Sóc Trăng, T.Sóc Trăng</p><p><br></p><p>● Lô L2.06-07 tầng L2 TTTM Vincom Plaza Kon Tum, Đường Phan Đình Phùng, P.Quyết Thắng, TP.Kon Tum, T.Kon Tum</p><p><br></p><p>● Shop 2S16, Tầng L2, Trung Tâm Thương Mại GO! Bến Tre, Ấp 1, Thửa đất số 558, tờ bản đồ số 16, Đường Võ Nguyên Giáp(Quốc lộ 60), X.Sơn Đông, TP.Bến Tre, T.Bến Tre</p><p><br></p><p>● Shop T227, Tầng 2, Trung Tâm Thương Mại AeonMall Hải Phòng Lê Chân, số 10 Đường Võ Nguyên Giáp, P.Kênh Dương, Q.Lê Chân, TP.Hải Phòng</p><p><br></p><p>● 344 Phạm Hùng, P.5, Q.8, TP.Hồ Chí Minh</p><p><br></p><p>● Shop 1S7, Tầng 1, Trung tâm thương mại GO! Huế, 174 Bà Triệu, P.Phú Hội, TP.Huế, T.Thừa Thiên Huế.</p><p><br></p><p>● Shop 1S21 và 1S22, Tầng 1, Trung tâm thương mại GO! Đại Lộ Trần Hưng Đạo, Đường H1, Tiểu Khu Đô Thị 13, P.Bắc Lệnh, TP.Lào Cai, T.Lào Cai</p><p><br></p><p>● Lô L2-05, Tầng 2, TTTM Vincom Plaza Trần Huỳnh, 109 Trần Huỳnh, P.7, TP.Bạc Liêu, T.Bạc Liêu</p><p><br></p><p>● Shop L3-07, tầng L3, TTTM Vincom Plaza Mỹ Tho, 1A Hùng Vương, P.1, TP.Mỹ Tho, T.Tiền Giang</p><p><br></p><p>● Shop 2F-03, Tầng 2, TTTM Lotte Mart Vinh, Đại lộ V.I , Khối Yên Sơn, P.Hà Huy Tập, TP.Vinh, T.Nghệ An</p><p><br></p><p>● Shop 1S4, Tầng 1, TTTM GO! Buôn Ma Thuột, Góc, Nguyễn Thị Định và đường Vành đai Phía Tây, P.Thành Nhất, TP.Buôn Ma Thuột, T,Đắk Lắk</p><p><br></p><p>● Shop S7B, Tầng 2, TTTM Aeon Mall Bình Tân, Số 1 đường số 17A, Khu phố 11, P.Bình Trị Đông B, Q.Bình Tân, TP.Hồ Chí Minh</p><p><br></p><p>● 415 Nguyễn Huệ, P.Trần Phú, TP.Quy Nhơn, T.Bình Định</p><p><br></p><p>● 790E Hà Hoàng Hổ , P.Đông Xuyên, TP.Long Xuyên, T.An Giang</p>",
+                "shortDescription": "E-Voucher Medicare",
+                "slug": "E-Voucher-Medicare"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 5,
+                "categoryDetails": [
+                  {
+                    "id": 5,
+                    "lang": "VN",
+                    "desc": "là voucher đồng bộ từ Urbox",
+                    "name": "Phiếu Mua Hàng Điện Tử",
+                    "slug": "Phieu-Mua-Hang-DJien-Tu"
+                  }
+                ]
+              }
+            ],
+            "productTags": [],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 100000,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 144,
+              "salePoint": 0
+            }
+          },
+          {
+            "onSale": false,
+            "id": 71,
+            "type": "VIRTUAL",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 74,
+            "thumbnail": {
+              "id": 261,
+              "key": "images/2/86e7f05f-5943-4764-91d4-10eb19d222de.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/86e7f05f-5943-4764-91d4-10eb19d222de.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "E-Voucher Chợ Lớn",
+                "description": "<p><strong>Hướng dẫn sử dụng:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà E-Voucher Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và nhận thông báo đổi thành công&nbsp;</p><p><strong>Bước 5:</strong> Vào trang \"E-Voucher của tôi\" sau đó chọn E-Voucher vừa đổi để sử dụng.</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Official</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p><p><br></p><p><strong style=\"color: red;\">❖ <u>Địa chỉ</u>:</strong></p><p><br></p><p>● 1381 Phạm Văn Thuận - P.Thống Nhất, TP.Biên Hòa, T.Đồng Nai</p><p><br></p><p>● Số 283, Đại lộ Bình Dương, P.Chánh Nghĩa, TP.Thủ Dầu Một, T.Bình Dương</p><p><br></p><p>● 176, 30/4, KP.4, P.3, TP.Tây Ninh, T.Tây Ninh</p><p><br></p><p>● 808A, Đường 21/4, Ấp Núi Tung, X.Suối Tre, TP.Long Khánh, T.Đồng Nai</p><p><br></p><p>● Số 433, Quốc lộ 1A, Ấp Thái Hòa, X.Hố Nai 3, H.Trảng Bom, T.Đồng Nai</p><p><br></p><p>● 753/2-4-6, đường xa lộ Hà Nội, P.Long Bình, TP.Biên Hòa, T.Đồng Nai</p><p><br></p><p>● 658, Phú Riềng Đỏ, P.Tân Xuân, TP.Đồng Xoài, T.Bình Phước</p><p><br></p><p>● Số 504, Nguyễn An Ninh, P.Nguyễn An Ninh, TP.Vũng Tàu, T.Bà Rịa - Vũng Tàu</p><p><br></p><p>● Số 592 Đường Cách Mạng Tháng 8, P.Phước Trung, TP.Vũng Tàu, T.Bà Rịa - Vũng Tàu</p><p><br></p><p>● 27, Bis Quốc Lộ 13 - KP.Bình Hòa, P.Lái Thiêu, TP.Thuận An, T.Bình Dương</p><p><br></p><p>● 5A/2, Đường ĐT 743, KP. 1B, P.An Phú - TP. Thuận An, T.Bình Dương</p><p><br></p><p>● Tổ 4, Ấp 3, Lê Duẩn, X.An Phước, H.Long Thành, T.Đồng Nai</p><p><br></p><p>● Ấp Lò Vôi, X.Phước Hưng, H.Long Điền, T.Bà Rịa - Vũng Tàu</p><p><br></p><p>● Số 5, Lý Thường Kiệt, KP.Thắng Lợi 1, P.Dĩ An, TP.Dĩ An, T.Bình Dương</p><p><br></p><p>● 55/4, QUỐC LỘ 20 - ẤP BẠCH LÂM, X.Gia Tân 2, H.Thống Nhất, T.Đồng Nai</p><p><br></p><p>● Quốc lộ 51, KP Phước Lộc, P.Tân Phước, TX.Phú Mỹ, T.Bà Rịa Vũng Tàu</p><p><br></p><p>● 246, Đường Mười Ba tháng Ba, KP 4B, TT.Dầu Tiếng, H.Dầu Tiếng, T.Bình Dương</p><p><br></p><p>● 108C, Trần Văn Khéo, P.Cái Khế, Q.Ninh Kiều, TP.Cần Thơ</p><p><br></p><p>● 151/1, Trần Hưng Đạo, P.Mỹ Phước, TP.Long Xuyên, T.An Giang</p><p><br></p><p>● 35, Đường Ấp Bắc, P.5, TP.Mỹ Tho, T.Tiền Giang</p><p><br></p><p>● SỐ 217, QUỐC LỘ 1A, P.7, TP.Sóc Trăng, T.Sóc Trăng</p><p><br></p><p>● Khu dân cư chợ Mỹ Trà, P.Mỹ Phú, TP.Cao Lãnh, T.Đồng Tháp</p><p><br></p><p>● Nguyễn Thị Minh Khai, Khóm 6, P.8, TP.Trà Vinh, T.Trà Vinh</p><p><br></p><p>● 887, Nguyễn Trung Trực, P.An Bình, TP.Rạch Giá, T.Kiên Giang</p><p><br></p><p>● Số 135A/10, Trần Phú nối dài, P.7, TP.Bạc Liêu, T.Bạc Liêu</p><p><br></p><p>● Ấp Bà Điều , X.Lý Văn Lâm, TP.Cà Mau, T.Cà Mau</p><p><br></p><p>● SỐ 39, TRẦN ĐẠI NGHĨA, P.4, TP.Vĩnh Long, T.Vĩnh Long</p><p><br></p><p>● 171D, Võ Nguyên Giáp, Ấp Bình Thành, X.Bình Phú, TP.Bến Tre, T.Bến Tre</p><p><br></p><p>● Số 161 Đường 3/2, P.Hưng Lợi, Q.Ninh Kiều, TP.Cần Thơ</p><p><br></p><p>● 86, Nguyễn Văn Siêu, TT.Bến Lức, H.Bến Lức, T.Long An</p><p><br></p><p>● Số 393, Nguyễn Sinh Sắc, P.2, TP.Sa Đéc, T.Đồng Tháp</p><p><br></p><p>● KHU VỰC 2, Võ Văn Kiệt, P.5, TP.Vị Thanh, T.Hậu Giang</p><p><br></p><p>● Số 13/591 Quốc lộ 1, P.5 , TX.Cai Lậy, T.Tiền Giang</p><p><br></p><p>● Số 209, Tỉnh lộ 825, X.Đức Hòa Hạ, H.Đức Hòa, T.Long An</p><p><br></p><p>● 45/11 Trần Hưng Đạo, P.Mỹ Thạnh, TP.Long Xuyên, T.An Giang</p><p><br></p><p>● 77 Nguyễn Thị Thập, KP.4, P.10, TP.Mỹ Tho, T.Tiền Giang</p><p><br></p><p>● Ấp Hưng Hòa, X.Long Hưng, TX.Gò Công, T.Tiền Giang</p><p><br></p><p>● SỐ 310 Quốc lộ 53, TT.Long Hồ, H.Long Hồ, T.Vĩnh Long</p><p><br></p><p>● 103-105-107 Lý Thường Kiệt, P.6, TP.Cà Mau, T.Cà Mau</p><p><br></p><p>● 394 - 396 Tân Lộ Kiều Lương, P.Châu Phú A , TP.Châu Đốc, T.An Giang</p><p><br></p><p>● số 7A Trương Định, P.2, TP.Tân An, T.Long An</p><p><br></p><p>● Hùng Vương, TT.Mỹ An, H.Tháp Mười, T.Đồng Tháp</p><p><br></p><p>● B2 - Khu Dân Cư Hùng Vương 2, P.Phú Thủy, TP.Phan Thiết, T.Bình Thuận</p><p><br></p><p>● 559 Nguyễn Hữu Thọ, P.Khuê Trung, Q.Cẩm Lệ, TP.Đà Nẵng</p><p><br></p><p>● 212 Đường 23/10 P.Phương Sơn, TP.Nha Trang, T.Khánh Hòa</p><p><br></p><p>● 116-118-120-122 Nguyễn Tri Phương, P.Chính Gián, Q.Thanh Khê, TP.Đà Nẵng</p><p><br></p><p>● 403 Tôn Đức Thắng, P.Hòa Minh, Q.Liên Chiểu, TP.Đà Nẵng</p><p><br></p><p>● Tổ 17, KV4 Nguyễn Thái Học, P.Nguyễn Văn Cừ, TP.Quy Nhơn, T.Bình Định</p><p><br></p><p>● 632 Thống Nhất, P.Đạo Long, TP.Phan Rang - Tháp Chàm, T.Ninh Thuận</p><p><br></p><p>● 126 Đinh Tiên Hoàng, P.Nghĩa Chánh, TP.Quảng Ngãi, T.Quảng Ngãi</p><p><br></p><p>● 1919 Hùng Vương, P.Cam Phú, TP.Cam Ranh, T.Khánh Hòa</p><p><br></p><p>● Nguyễn Thị Ngọc Oanh, P.Ninh Hiệp, TX.Ninh Hòa, T.Khánh Hòa</p><p><br></p><p>● 832-834, Phan Châu Trinh, P.An Sơn, TP.Tam Kỳ, T.Quảng Nam</p><p><br></p><p>● Số 02-04, Lê Lợi, P.1, TP.Tuy Hòa, T.Phú Yên</p><p><br></p><p>● 27 Trần Phú, P.Phước Vĩnh, TP.Huế. T.Thừa Thiên Huế</p><p><br></p><p>● 100 Lê Lợi, P.Phú Hội, TP.Huế, T.Thừa Thiên Huế</p><p><br></p><p>● 246, Lê Duẩn, P.Đông Lễ, TP.Đông Hà, T.Quảng Trị</p><p><br></p><p>● 559B, Lý Thường Kiệt, P.Bắc Lý, TP.Đồng Hới, T.Quảng Bình</p><p><br></p><p>● Số 17 - 17Bis, Đường 3/4, P.3, TP. Đà Lạt, T.Lâm Đồng</p><p><br></p><p>● 252, Trần Phú, P.Lộc Sơn, TP.Bảo Lộc, T.Lâm Đồng</p><p><br></p><p>● 100, Phan Đình Phùng, P.Tây Sơn, TP.Pleiku, T.Gia Lai</p><p><br></p><p>● 38, Hoàng Văn Thụ, P.Quyết Thắng, TP.Kon Tum, T.Kon Tum</p><p><br></p><p>● 1080, Hùng Vương, TT.Di Linh, H.Di Linh, T.Lâm Đồng</p><p><br></p><p>● 31, Nguyễn Tất Thành, P.Tân Lợi, TP.Buôn Ma Thuột, T.Đắk Lắk</p><p><br></p><p>● 569, Lê Duẩn, P.EA TAM, TP.Buôn Ma Thuột, T.Đắk Lắk</p><p><br></p><p>● 300, Hùng Vương, P.An Bình, TX.Buôn Hồ, T.Đăk Lăk</p><p><br></p><p>● 148, Tôn Đức Thắng, P.Nghĩa Thành, TP.Gia Nghĩa, T.Đăk Nông</p><p><br></p><p>● LÔ G - Chung cư Hùng Vương, P.11, Q.5, TP.Hồ Chí Minh</p><p><br></p><p>● TẦNG TRỆT, LẦU 1 - CAO ỐC LƯƠNG ĐỊNH CỦA, P.AN PHÚ, Q.2 , TP.Hồ Chí Minh</p><p><br></p><p>● 189/4, TRƯỜNG CHINH, P.TÂN HƯNG THUẬN, Q.12, TP.Hồ Chí Minh</p><p><br></p><p>● 322-324, TÂN KỲ TÂN Quý, P.SƠN KỲ, Q.Tân Phú, TP.Hồ Chí Minh</p><p><br></p><p>● 590, CÁCH MẠNG THÁNG 8, P.11, Q.3, TP.Hồ Chí Minh</p><p><br></p><p>● 101, Tôn Dật Tiên, P.Tân Phú, Q.7, TP.Hồ Chí Minh</p><p><br></p><p>● TÒA NHÀ H2, 196 Hoàng Diệu, P.8, Q.4, TP.Hồ Chí Minh</p><p><br></p><p>● 535, Quốc Lộ 22, Khu Phố 5, TT.Củ Chi, H.Củ Chi, TP.Hồ Chí Minh</p><p><br></p><p>● 639, HƯƠNG LỘ 2, P.BÌNH TRỊ ĐÔNG, Q.Bình Tân, TP.Hồ Chí Minh</p><p><br></p><p>● A8/2A-A8/3, Quốc Lộ 50, Ấp 2, X.Bình Hưng, H.Bình Chánh, TP.Hồ Chí Minh</p><p><br></p><p>● 520, Huỳnh Tấn Phát, P.Bình Thuận, Q.7, TP.Hồ Chí Minh</p><p><br></p><p>● 531, NGUYỄN OANH, P.17, Q.Gò Vấp, TP. Hồ Chí Minh</p><p><br></p><p>● 103, TĂNG NHƠN PHÚ, P.PHƯỚC LONG B, Q.9, TP.Hồ Chí Minh</p><p><br></p><p>● 697 - 699, Kinh Dương Vương, P.An Lạc, Q.Bình Tân, TP.Hồ Chí Minh</p><p><br></p><p>● Tầng hầm B1, Tòa nhà Gigamall, 240-242, Phạm Văn Đồng, P.Hiệp Bình Chánh, Q.Thủ Đức, TP.Hồ Chí Minh</p><p><br></p><p>● F12/23B, QUÁCH ĐIÊU, ẤP 6, X.VĨNH LỘC A, H.Bình Chánh, TP.Hồ Chí Minh</p><p><br></p><p>● 475, Tô Ký, Ấp Nam Thới, X.Thới Tam Thôn, H.Hóc Môn, TP.Hồ Chí Minh</p><p><br></p><p>● 523B, KHA VẠN CÂN, P.LINH ĐÔNG, Q.Thủ Đức, TP.Hồ Chí Minh</p><p><br></p><p>● SỐ 41, NGUYỄN THỊ TÚ, P.BÌNH HƯNG HÒA B, Q.Bình Tân, TP.Hồ Chí Minh</p><p><br></p><p>● 685, Phan Văn Trị, P.7, Q.Gò Vấp, TP.Hồ Chí Minh</p><p><br></p><p>● 267, Quốc lộ 13, Tổ 18, Khu phố 2, P.Mỹ Phước, TX.Bến Cát, T.Bình Dương</p><p><br></p><p>● 02, Trần Phú, Khóm An Thạnh A, P.An Lộc, TP.Hồng Ngự, T.Đồng Tháp</p><p><br></p><p>● 612, Lê Văn Khương, Khu phố 7, P.Thới An, Q.12, TP.Hồ Chí Minh</p><p><br></p><p>● 425-427, Hai Bà Trưng, P.Cẩm Châu, TP.Hội An, T.Quảng Nam</p><p><br></p><p>● Số 1200, Lê Hồng Phong, P.Phước Long, TP.Nha Trang, T.Khánh Hòa</p><p><br></p><p>● Test</p><p><br></p><p>● 175, Quốc Lộ 1K, P.Linh Xuân, Q.Thủ Đức, TP.Hồ Chí Minh</p><p><br></p><p>● 819, Quang Trung, P.12, Q.Gò Vấp, TP.Hồ Chí Minh</p><p><br></p><p>● 112E Trần Phú, P.Cái Khế, Q.Ninh Kiều, TP.Cần Thơ</p><p><br></p><p>● Số 441 - 443 Quốc lộ 20, TT.Liên Nghĩa, H.Đức Trọng, T.Lâm Đồng</p><p><br></p><p>● Số 36 Bùi Trọng Nghĩa, Khu phố 3, P.Trảng Dài, TP.Biên Hòa, T.Đồng Nai</p><p><br></p><p>● K6, Đường Lê Hồng Phong, Khu dân cư Ngân Thuận, P.Bình Thủy, Q.Bình Thủy, TP.Cần Thơ</p><p><br></p><p>● 200A, đường Nguyễn Trung Trực, KP5, P.Dương Đông, TP.Phú Quốc, T.Kiên Giang</p>",
+                "shortDescription": "E-Voucher Chợ Lớn",
+                "slug": "E-Voucher-Cho-Lon"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 5,
+                "categoryDetails": [
+                  {
+                    "id": 5,
+                    "lang": "VN",
+                    "desc": "là voucher đồng bộ từ Urbox",
+                    "name": "Phiếu Mua Hàng Điện Tử",
+                    "slug": "Phieu-Mua-Hang-DJien-Tu"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "voucher",
+                "description": "nhóm vouchẻ"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 100000,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 144,
+              "salePoint": 0
+            }
+          },
+          {
+            "onSale": false,
+            "id": 70,
+            "type": "VIRTUAL",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 72,
+            "thumbnail": {
+              "id": 259,
+              "key": "images/2/a6082cc2-58cd-4216-8262-75987325d256.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/a6082cc2-58cd-4216-8262-75987325d256.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "E-Voucher Aeon Mall",
+                "description": "<p><strong>Hướng dẫn sử dụng:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà E-Voucher Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và nhận thông báo đổi thành công&nbsp;</p><p><strong>Bước 5:</strong> Vào trang \"E-Voucher của tôi\" sau đó chọn E-Voucher vừa đổi để sử dụng.</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Official</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p><p><strong style=\"color: red;\">❖ <u>Địa chỉ</u>:</strong></p><p><br></p><p>● AEON Hà Đông - Tổ dân phố Hoàng Văn Thụ, P.Dương Nội, Q.Hà Đông, TP.Hà Nội</p><p><br></p><p>● AEON Long Biên - 27 Cổ Linh, P.Long Biên, Q.Long Biên, TP.Hà Nội</p><p><br></p><p>● AEON Bình Tân - Số 1 đường số 17A, Khu phố 11, P.Bình Trị Đông B, Q.Bình Tân, TP.Hồ Chí Minh</p><p><br></p><p>● AEON Bình Dương Canary - Số 01 Đại Lộ Bình Dương, Khu phố Bình Giao, P.Thuận Giao, TX.Thuận An, T.Bình Dương</p><p><br></p><p>● AEON Tân Phú - 30 Tân Thắng, P.Sơn Kỳ, Q.Tân Phú, TP.Hồ Chí Minh</p>",
+                "shortDescription": "E-Voucher Aeon Mall",
+                "slug": "E-Voucher-Aeon-Mall"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 5,
+                "categoryDetails": [
+                  {
+                    "id": 5,
+                    "lang": "VN",
+                    "desc": "là voucher đồng bộ từ Urbox",
+                    "name": "Phiếu Mua Hàng Điện Tử",
+                    "slug": "Phieu-Mua-Hang-DJien-Tu"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "voucher",
+                "description": "nhóm vouchẻ"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 100000,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 144,
+              "salePoint": 0
+            }
+          }
+        ],
+        "maxLength": 5,
+        "categoryId": 5,
+        "productGroup": {
+          "label": "Phiếu Mua Hàng Điện Tử",
+          "value": 5
+        }
+      },
+      "type": "HORIZONTAL_PRODUCT_LIST_2",
+      "title": "Phiếu Mua Hàng Điện Tử"
+    },
+    {
+      "id": "b6a44bb3-53b2-4f76-9b5b-ca875b0c1f69",
+      "data": {
+        "products": [
+          {
+            "onSale": false,
+            "id": 90,
+            "type": "VIRTUAL",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 93,
+            "thumbnail": {
+              "id": 661,
+              "key": "images/2/f7dd9a70-77e1-4a70-8e1b-747efbc7ebc7.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/f7dd9a70-77e1-4a70-8e1b-747efbc7ebc7.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "Thẻ nạp điện thoại",
+                "description": "<p><strong>Hướng dẫn sử dụng:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà Thẻ nạp điện thoại Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và nhận thông báo đổi thành công&nbsp;</p><p><strong>Bước 5:</strong> Vào trang \"E-Voucher của tôi\" sau đó chọn E-Voucher vừa đổi để sử dụng.</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Offical</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p>",
+                "shortDescription": "Thẻ nạp điện thoại",
+                "slug": "Card50k"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 6,
+                "categoryDetails": [
+                  {
+                    "id": 6,
+                    "lang": "VN",
+                    "desc": "là thẻ cào nạp tiền điện thoại",
+                    "name": "Thẻ Nạp Điện Thoại",
+                    "slug": "The-Cao-DJien-Thoai"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "thẻ cào điện thoại",
+                "description": "nhóm thẻ cào"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 50000,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 80,
+              "salePoint": 0
+            }
+          },
+          {
+            "onSale": false,
+            "id": 89,
+            "type": "VIRTUAL",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 92,
+            "thumbnail": {
+              "id": 660,
+              "key": "images/2/3b28df3e-4f1a-4444-a479-6268f85a6c09.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/3b28df3e-4f1a-4444-a479-6268f85a6c09.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "Thẻ nạp điện thoại",
+                "description": "<p><strong>Hướng dẫn sử dụng:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà Thẻ nạp điện thoại Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và nhận thông báo đổi thành công&nbsp;</p><p><strong>Bước 5:</strong> Vào trang \"E-Voucher của tôi\" sau đó chọn E-Voucher vừa đổi để sử dụng.</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Offical</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p>",
+                "shortDescription": "Thẻ nạp điện thoại",
+                "slug": "Card100k"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 6,
+                "categoryDetails": [
+                  {
+                    "id": 6,
+                    "lang": "VN",
+                    "desc": "là thẻ cào nạp tiền điện thoại",
+                    "name": "Thẻ Nạp Điện Thoại",
+                    "slug": "The-Cao-DJien-Thoai"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "thẻ cào điện thoại",
+                "description": "nhóm thẻ cào"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 100000,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 144,
+              "salePoint": 0
+            }
+          }
+        ],
+        "maxLength": 5,
+        "categoryId": 6,
+        "productGroup": {
+          "label": "Thẻ Nạp Điện Thoại",
+          "value": 6
+        }
+      },
+      "type": "HORIZONTAL_PRODUCT_LIST_2",
+      "title": "Thẻ Nạp Điện Thoại"
+    },
+    {
+      "id": "4d199e2a-563a-453a-bbf0-107ee16ce69d",
+      "data": [
+        {
+          "link": "NEWS",
+          "image": "https://d3ezucyls8c4up.cloudfront.net/images/2/5f979a89-342f-47e2-ac78-d609ef2d5237.jpg",
+          "imageId": 741,
+          "typeRoute": "ROUTER"
+        }
+      ],
+      "type": "BANNER",
+      "title": ""
+    },
+    {
+      "id": "e88e90b9-7a73-4395-b9ce-31eed201c423",
+      "data": {
+        "products": [
+          {
+            "onSale": false,
+            "id": 90,
+            "type": "VIRTUAL",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 93,
+            "thumbnail": {
+              "id": 661,
+              "key": "images/2/f7dd9a70-77e1-4a70-8e1b-747efbc7ebc7.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/f7dd9a70-77e1-4a70-8e1b-747efbc7ebc7.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "Thẻ nạp điện thoại",
+                "description": "<p><strong>Hướng dẫn sử dụng:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà Thẻ nạp điện thoại Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và nhận thông báo đổi thành công&nbsp;</p><p><strong>Bước 5:</strong> Vào trang \"E-Voucher của tôi\" sau đó chọn E-Voucher vừa đổi để sử dụng.</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Offical</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p>",
+                "shortDescription": "Thẻ nạp điện thoại",
+                "slug": "Card50k"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 6,
+                "categoryDetails": [
+                  {
+                    "id": 6,
+                    "lang": "VN",
+                    "desc": "là thẻ cào nạp tiền điện thoại",
+                    "name": "Thẻ Nạp Điện Thoại",
+                    "slug": "The-Cao-DJien-Thoai"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "thẻ cào điện thoại",
+                "description": "nhóm thẻ cào"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 50000,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 80,
+              "salePoint": 0
+            }
+          },
+          {
+            "onSale": false,
+            "id": 89,
+            "type": "VIRTUAL",
+            "isFeatured": false,
+            "taxStatus": "NONE",
+            "defaultProductVariantId": 92,
+            "thumbnail": {
+              "id": 660,
+              "key": "images/2/3b28df3e-4f1a-4444-a479-6268f85a6c09.png",
+              "type": "png",
+              "url": "https://d3ezucyls8c4up.cloudfront.net/images/2/3b28df3e-4f1a-4444-a479-6268f85a6c09.png"
+            },
+            "productDetails": [
+              {
+                "lang": "VN",
+                "name": "Thẻ nạp điện thoại",
+                "description": "<p><strong>Hướng dẫn sử dụng:</strong></p><p><strong>Bước 1:</strong> Mẹ nhấn đổi quà</p><p><strong>Bước 2:</strong>&nbsp;Thêm vào giỏ quà Thẻ nạp điện thoại Ba/Mẹ muốn đổi</p><p><strong>Bước 3:</strong> Kiểm tra giỏ quà để xác nhận thông tin</p><p><strong>Bước 4:</strong> Bấm vào nút \"Đổi xu\" và nhận thông báo đổi thành công&nbsp;</p><p><strong>Bước 5:</strong> Vào trang \"E-Voucher của tôi\" sau đó chọn E-Voucher vừa đổi để sử dụng.</p><p>Mọi thông tin thắc mắc Ba/Mẹ vui lòng liên hệ để được tư vấn:</p><p><span style=\"color: rgb(230, 0, 0);\">1. Fanpage Aiwado - Dinh dưỡng chuẩn Nhật Bản</span></p><p><span style=\"color: rgb(230, 0, 0);\">2. Zalo Aiwado Offical</span></p><p><span style=\"color: rgb(230, 0, 0);\">3. Hotline: 1900 6093&nbsp;</span></p>",
+                "shortDescription": "Thẻ nạp điện thoại",
+                "slug": "Card100k"
+              }
+            ],
+            "productCategories": [
+              {
+                "id": 6,
+                "categoryDetails": [
+                  {
+                    "id": 6,
+                    "lang": "VN",
+                    "desc": "là thẻ cào nạp tiền điện thoại",
+                    "name": "Thẻ Nạp Điện Thoại",
+                    "slug": "The-Cao-DJien-Thoai"
+                  }
+                ]
+              }
+            ],
+            "productTags": [
+              {
+                "name": "thẻ cào điện thoại",
+                "description": "nhóm thẻ cào"
+              }
+            ],
+            "productVariants": [],
+            "price": {
+              "normalPrice": 100000,
+              "salePrice": 0
+            },
+            "point": {
+              "normalPoint": 144,
+              "salePoint": 0
+            }
+          }
+        ],
+        "maxLength": 5,
+        "categoryId": 6,
+        "productGroup": {
+          "label": "Thẻ Nạp Điện Thoại",
+          "value": 6
+        }
+      },
+      "type": "HORIZONTAL_PRODUCT_LIST_1",
+      "title": "Thẻ Nạp Điện Thoại"
+    }
+  ],
+  "hash": "HOME_CONFIG:1:{\"query\":{},\"params\":{}}"
+}

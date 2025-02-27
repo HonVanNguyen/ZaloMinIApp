@@ -43,12 +43,13 @@ export const Section: FC<PropsWithChildren<SectionProps>> = ({
         <Box className="flex flex-row justify-between">
           <Typography
           sx={{
+            color: 'var(--text-color-header)',
             display:'flex',
             justifyContent:'center',
             fontFamily:'Averta_Semi',
             fontSize:'20px',
             textAlign:'center',
-            lineHeight:'24px'
+            // lineHeight:'24px'
           }}>
             {title} 
           </Typography>
@@ -60,7 +61,7 @@ export const Section: FC<PropsWithChildren<SectionProps>> = ({
             textWrap:'nowrap',
             zIndex:'3',
             textAlign:'left',
-            lineHeight:'24px'
+            lineHeight:'19px'
           }}
           onClick={()=> {
             setTitle();
