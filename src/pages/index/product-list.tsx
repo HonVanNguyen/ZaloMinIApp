@@ -2,31 +2,39 @@ import React, { FC, Suspense } from "react";
 import { Section } from "components/section";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 // import { forTitle, productsState } from "state";
-import { ProductItemSkeleton, ProductItemSkeletonHorizontal } from "components/skeletons";
-
+import { productState } from "state";
+import {
+  ProductItemSkeleton,
+  ProductItemSkeletonHorizontal,
+} from "components/skeletons";
 
 import { Box } from "@mui/material";
 import { ItemSwiperHorizontal } from "./component/item_swiper_horizontal";
 
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper";
 import { ItemSubject } from "./common/interFace";
+import { ProductItem } from "pages/listProducts/component/item_product_vertical";
 // import required modules
 
 export const ProductListContent: FC = () => {
   // const products = useRecoilValue(productsState);
-
+  const products = useRecoilValue(productState);
   return (
-    <Section title="Danh sách sản phẩm">
-      <Box  className="grid grid-cols-1 gap-4">
-        {/* {products.map((product) => (
-          <ProductItem key={product.id} product={product} />
-        ))} */}
+    <Section title="THẺ CÀO ĐIỆN THOẠI">
+      <Box className="grid grid-cols-1 gap-4">
+        {products.map((product) => (
+          <ProductItem
+            key={product.id}
+            product={product}
+            keyTitle="productState"
+          />
+        ))}
       </Box>
     </Section>
   );
@@ -34,11 +42,16 @@ export const ProductListContent: FC = () => {
 interface ProductListHorizonContentProps {
   title: string;
   url?: string;
-  listContent?: ItemSubject[],
-  subjectId?:string,
+  listContent?: ItemSubject[];
+  subjectId?: string;
 }
 
-export const ProductListHorizonContent: FC<ProductListHorizonContentProps> = ({title, url="", listContent, subjectId}) => {
+export const ProductListHorizonContent: FC<ProductListHorizonContentProps> = ({
+  title,
+  url = "",
+  listContent,
+  subjectId,
+}) => {
   return (
     <Section title={title} url={url} select={subjectId}>
       {/* <Swiper
@@ -71,7 +84,7 @@ export const ProductListFallbackHorizontal: FC = () => {
   const products = [...new Array(12)];
 
   return (
-    <Section title={'title'}>
+    <Section title={"title"}>
       <Swiper
         slidesPerView="auto"
         spaceBetween={20}
@@ -83,7 +96,7 @@ export const ProductListFallbackHorizontal: FC = () => {
         className="mySwiper"
       >
         {products.slice(0, 8).map((product) => (
-          <SwiperSlide >
+          <SwiperSlide>
             <ProductItemSkeletonHorizontal key={product.id} />
           </SwiperSlide>
         ))}
@@ -106,19 +119,34 @@ export const ProductListFallback: FC = () => {
 };
 
 interface customForProduct {
-  horizontal?: boolean,
-  title: string,
-  url?:string, 
-  listItem?: ItemSubject[],
-  subjectId?:string
+  horizontal?: boolean;
+  title: string;
+  url?: string;
+  listItem?: ItemSubject[];
+  subjectId?: string;
 }
 
-export const ProductList: FC<customForProduct> = ({ horizontal, title, url="", listItem, subjectId }) => {
+export const ProductList: FC<customForProduct> = ({
+  horizontal,
+  title,
+  url = "",
+  listItem,
+  subjectId,
+}) => {
   return (
-    <Suspense fallback={horizontal ? <ProductItemSkeletonHorizontal /> : <ProductListFallback />}>
-      {horizontal?(
-        <ProductListHorizonContent listContent={listItem} title={title} url={url} subjectId={subjectId}/>
-      ):(
+    <Suspense
+      fallback={
+        horizontal ? <ProductItemSkeletonHorizontal /> : <ProductListFallback />
+      }
+    >
+      {horizontal ? (
+        <ProductListHorizonContent
+          listContent={listItem}
+          title={title}
+          url={url}
+          subjectId={subjectId}
+        />
+      ) : (
         <ProductListContent />
       )}
     </Suspense>

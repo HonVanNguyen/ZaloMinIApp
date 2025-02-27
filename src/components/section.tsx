@@ -11,24 +11,24 @@ import { BoxProps } from "zmp-ui/box";
 export interface SectionProps extends BoxProps {
   title: string;
   padding?: "all" | "none" | "title-only";
-  url?:string;
-  select?:string;
+  url?: string;
+  select?: string;
 }
 
 export const Section: FC<PropsWithChildren<SectionProps>> = ({
   children,
   title,
   padding = "all",
-  url="",
-  select="-1",
+  url = "",
+  select = "-1",
   ...props
 }) => {
   const keyTitle = useSetRecoilState(forTitle);
   const keySubject = useSetRecoilState(selectSubject);
-  const setTitle = async () =>{
+  const setTitle = async () => {
     await keyTitle(title);
-  };  
-  const setSubject = async () =>{
+  };
+  const setSubject = async () => {
     await keySubject(select);
   };
   const navigate = useNavigate();
@@ -42,33 +42,37 @@ export const Section: FC<PropsWithChildren<SectionProps>> = ({
       <Text.Title className={`${padding === "title-only" ? "px-4" : ""}`}>
         <Box className="flex flex-row justify-between">
           <Typography
-          sx={{
-            display:'flex',
-            justifyContent:'center',
-            fontFamily:'Averta_Semi',
-            fontSize:'20px',
-            textAlign:'center',
-            lineHeight:'24px'
-          }}>
-            {title} 
-          </Typography>
-          <Button sx={{
-            color: 'var(--text-color-header)',
-            fontFamily:"Averta_Semi",
-            fontSize:'16px',
-            display:"flex",
-            textWrap:'nowrap',
-            zIndex:'3',
-            textAlign:'left',
-            lineHeight:'24px'
-          }}
-          onClick={()=> {
-            setTitle();
-            setSubject();
-            navigate(url);
-          }}
+            sx={{
+              color: "var(--text-color-header)",
+              display: "flex",
+              justifyContent: "center",
+              fontFamily: "Averta_Semi",
+              fontSize: "20px",
+              textAlign: "center",
+              lineHeight: "24px",
+            }}
           >
-            Tất cả <img loading="lazy" src={IC_RIGHT} width={"20px"} height={"20px"}/>
+            {title}
+          </Typography>
+          <Button
+            sx={{
+              color: "var(--text-color-header)",
+              fontFamily: "Averta_Semi",
+              fontSize: "16px",
+              display: "flex",
+              textWrap: "nowrap",
+              zIndex: "3",
+              textAlign: "left",
+              lineHeight: "24px",
+            }}
+            onClick={() => {
+              setTitle();
+              setSubject();
+              navigate(url);
+            }}
+          >
+            Tất cả{" "}
+            <img loading="lazy" src={IC_RIGHT} width={"20px"} height={"20px"} />
           </Button>
         </Box>
       </Text.Title>

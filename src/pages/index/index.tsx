@@ -2,11 +2,7 @@ import { Box } from "@mui/material";
 import { Divider } from "components/divider";
 import React, { useEffect, useState } from "react";
 import { useRecoilValue, useSetRecoilState } from "recoil";
-import {
-  bannerHome,
-  getSubject,
-  serviceHome
-} from "state";
+import { bannerHome, getSubject, serviceHome } from "state";
 import { Page } from "zmp-ui";
 import { Banner } from "./banner";
 import { useGetListHomeConfig } from "./common/hook/useGetBanner";
@@ -16,9 +12,12 @@ import {
   SectionDataHome,
 } from "./common/interFace";
 import { getBlogsBySubject } from "./common/services";
-import { ProductList } from "./product-list";
+import { ProductList, ProductListContent } from "./product-list";
 import { DashedLine } from "components/common/line";
 import { CardProfile } from "components/common/cardProfile";
+import ListProductPage from "pages/listProducts";
+import { HeaderPage } from "pages/product/component/header";
+import ProductDetailPage from "pages/product";
 const HomePage: React.FunctionComponent = () => {
   const setBannerHome = useSetRecoilState(bannerHome);
   const setServiceHome = useSetRecoilState(serviceHome);
@@ -31,7 +30,7 @@ const HomePage: React.FunctionComponent = () => {
   } = useGetListHomeConfig();
   const [dataBlogs, setDataBlogs] = useState<any>();
   // Define the queries for fetching blogs based on subjects
- 
+
   const getFormattedBlogs = async (subjects: any[]) => {
     try {
       // Sử dụng Promise.all để đợi tất cả các lời gọi API hoàn tất
@@ -75,8 +74,7 @@ const HomePage: React.FunctionComponent = () => {
     fetchBlogs(); // Gọi hàm fetchBlogs khi useEffect chạy
   }, [subjects]);
 
-
-
+  console.log("Datablogs: ", dataBlogs);
   useEffect(() => {
     const setHomeConfig = async (data: IHomeConfig) => {
       try {
@@ -110,23 +108,25 @@ const HomePage: React.FunctionComponent = () => {
           overflowX: "hidden",
           paddingBottom: "12vh",
         }}
-        >
+      >
         <Box
           sx={{
             display: "flex",
             flexDirection: "column",
-            gap: "10px"
+            gap: "10px",
           }}
         >
-          <CardProfile/>
+          <CardProfile />
           <Banner />
-          <DashedLine width={'70%'}/>
+          <DashedLine width={"70%"} />
+          <ProductListContent />
+
           {dataBlogs ? (
             <>
               {dataBlogs.map((blogs, index) => {
                 return (
                   <ProductList
-                    key={index} 
+                    key={index}
                     title={blogs?.title}
                     horizontal={true}
                     url="/list-product"
@@ -137,7 +137,7 @@ const HomePage: React.FunctionComponent = () => {
               })}
             </>
           ) : null}
-          <Divider />          
+          <Divider />
         </Box>
       </Box>
     </Page>

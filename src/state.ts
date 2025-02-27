@@ -7,7 +7,11 @@ import { getPhoneNumber } from "zmp-sdk";
 
 import { API_CURRENT_USER, API_LOGIN } from "common/api/path.api";
 import axiosInstance from "common/axios";
-import { IUserInfoZalo, SectionDataHome } from "pages/index/common/interFace";
+import {
+  ItemSubject,
+  IUserInfoZalo,
+  SectionDataHome,
+} from "pages/index/common/interFace";
 import { store } from "redux/store";
 import { I_Blogs } from "types/blog";
 // service
@@ -229,7 +233,50 @@ export const bannerHome = atom<SectionDataHome>({
   key: "bannerHome",
   default: {
     id: "1",
-    data: [],
+    data: [
+      {
+        link: "EXCHANGE_GIFT",
+        image:
+          "https://d3ezucyls8c4up.cloudfront.net/images/2/78cc808f-aeee-45a3-80c7-31ae4ea1f205.jpg",
+        imageId: 381,
+        typeRoute: "ROUTER",
+      },
+      {
+        link: "https://aiwado.com/kazu-gain-gold.html",
+        image:
+          "https://d3ezucyls8c4up.cloudfront.net/images/2/1f0c5f5a-6127-4f7e-b631-59a16e39b50f.jpg",
+        imageId: 1072,
+        typeRoute: "DEEP_LINK",
+      },
+      {
+        link: "EXCHANGE_GIFT",
+        image:
+          "https://d3ezucyls8c4up.cloudfront.net/images/2/490805a7-7fce-4f42-86d7-7920d47c5197.jpg",
+        imageId: 383,
+        typeRoute: "ROUTER",
+      },
+      {
+        link: "EXCHANGE_GIFT",
+        image:
+          "https://d3ezucyls8c4up.cloudfront.net/images/2/ab3a6a38-bc18-4ddf-927a-971775f34c6f.jpg",
+        imageId: 384,
+        typeRoute: "ROUTER",
+      },
+      {
+        link: "https://aiwado.com/san-pham-cho-be",
+        image:
+          "https://d3ezucyls8c4up.cloudfront.net/images/2/00d6e56d-fb1a-4106-814b-a6920c55977b.jpg",
+        imageId: 617,
+        typeRoute: "DEEP_LINK",
+      },
+      {
+        link: "https://aiwado.com/san-pham-cho-nguoi-lon-tuoi",
+        image:
+          "https://d3ezucyls8c4up.cloudfront.net/images/2/96d18d42-ce99-4559-9ffd-9f46992bdc34.jpg",
+        imageId: 618,
+        typeRoute: "DEEP_LINK",
+      },
+    ],
     type: "BANNER",
     title: "",
   },
@@ -259,4 +306,103 @@ export const itemProduct = atom<Product>({
     value: "500000",
     price: "500",
   },
+});
+// Product state
+export const productState = atom<ItemSubject[]>({
+  key: "productItem",
+  default: [
+    {
+      id: 1,
+      title: "Sản phẩm A",
+      status: "available",
+      createdAt: "2024-02-01T10:00:00Z",
+      updatedAt: "2024-02-10T12:30:00Z",
+      thumbnail: {
+        id: 101,
+        key: "thumb_101",
+        type: "image/png",
+        url: "https://d3ezucyls8c4up.cloudfront.net/images/2/3248de3f-14c3-45ba-8b3f-f8f194b89907.png",
+      },
+      subject: [
+        {
+          id: 201,
+          subjectDetails: [
+            { id: 301, lang: "vi", name: "Chủ đề Tiếng Việt" },
+            { id: 302, lang: "en", name: "English Topic" },
+          ],
+        },
+      ],
+      newsDetails: [
+        {
+          id: 401,
+          lang: "vi",
+          content: "Chi tiết tin tức về sản phẩm A",
+          description: "Mô tả ngắn về sản phẩm A",
+          author: "Nguyễn Văn A",
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: "Sản phẩm B",
+      status: "out_of_stock",
+      createdAt: "2024-01-15T08:00:00Z",
+      updatedAt: "2024-02-12T14:00:00Z",
+      thumbnail: {
+        id: 102,
+        key: "thumb_102",
+        type: "image/jpg",
+        url: "https://d3ezucyls8c4up.cloudfront.net/images/2/21d89b53-1530-4573-8ee3-9c54e82a4010.png",
+      },
+      subject: [
+        {
+          id: 202,
+          subjectDetails: [
+            { id: 303, lang: "vi", name: "Chủ đề Khoa học" },
+            { id: 304, lang: "en", name: "Science Topic" },
+          ],
+        },
+      ],
+      newsDetails: [
+        {
+          id: 402,
+          lang: "en",
+          content: "Latest updates on Product B",
+          description: "Short description of Product B",
+          author: "Trần Thị B",
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "Sản phẩm C",
+      status: "available",
+      createdAt: "2024-03-01T09:30:00Z",
+      updatedAt: "2024-03-02T15:45:00Z",
+      thumbnail: {
+        id: 103,
+        key: "thumb_103",
+        type: "image/jpeg",
+        url: "https://d3ezucyls8c4up.cloudfront.net/images/2/3b0f8eed-a5f9-4bb1-be41-56589b95b580.png",
+      },
+      subject: [
+        {
+          id: 203,
+          subjectDetails: [
+            { id: 305, lang: "vi", name: "Chủ đề Công nghệ" },
+            { id: 306, lang: "en", name: "Technology Topic" },
+          ],
+        },
+      ],
+      newsDetails: [
+        {
+          id: 403,
+          lang: "vi",
+          content: "Thông tin mới nhất về sản phẩm C",
+          description: "Mô tả ngắn về sản phẩm C",
+          author: "Lê Văn C",
+        },
+      ],
+    },
+  ],
 });
