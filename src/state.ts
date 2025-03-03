@@ -76,6 +76,8 @@ export const useInfoApp = selector<any | null>({
       const response: any = await axiosInstance.post(API_LOGIN, {
         phoneNumber: phoneNumber,
       });
+      // console.log(response);
+      
       const { accessToken, refreshToken } = response;
 
       store?.dispatch(setAccessTokenApp(accessToken));

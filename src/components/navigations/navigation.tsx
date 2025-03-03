@@ -10,11 +10,14 @@ import {
   IC_PROFILE_AC,
   NAV_BOTTOM,
 } from "assets/bottom";
+import { API_LOGIN } from "common/api/path.api";
+import axiosInstance from "common/axios";
 import { useVirtualKeyboardVisible } from "hooks";
 import React, { FC, useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
+import { getPhoneRequest } from "services/getPhone.service";
 import { MenuItem } from "types/menu";
-import { openChat } from "zmp-sdk/apis";
+import { authorize, getPhoneNumber, getUserInfo, openChat } from "zmp-sdk/apis";
 export const TABS_NAVIGATION: Record<string, MenuItem> = {
   "/": {
     label: "Trang chủ",
@@ -74,6 +77,58 @@ export const Navigation: FC = () => {
     }
   };
 
+  const getUserPhoneNumber = async () => {
+    getPhoneNumber({
+      success: async (data) => {
+        let { token } = data;
+        console.log(data);
+
+        getPhoneRequest(token)
+      },
+      fail: (error) => {
+        // Xử lý khi gọi api thất bại
+        console.log(error);
+      },
+    });
+
+  }
+
+  const authorizeUser = async () => {
+    try {
+      const data = await authorize({
+        scopes: ["scope.userPhonenumber"],
+      });
+      console.log(data)
+      userLogin();
+
+    } catch (error) {
+      // xử lý khi gọi api thất bại
+      console.log(error);
+    }
+  };
+
+  const userLogin = async () => {
+    const response = await axiosInstance.post(API_LOGIN, {
+      phoneNumber: "string"
+    },
+      {
+        headers: { 'Content-Type': 'application/json' }
+      })
+
+    console.log("khoatiendao", response.data);
+  }
+
+  const getUser = async () => {
+    try {
+      const { userInfo } = await getUserInfo({});
+      const userPhone = getUserPhoneNumber();
+      console.log(userInfo);
+      console.log(userPhone);
+    } catch (error) {
+      // xử lý khi gọi api thất bại
+      console.log(error);
+    }
+  };
   return (
     <Box
       sx={{
@@ -188,6 +243,10 @@ export const Navigation: FC = () => {
                     width: "24px",
                     height: "24px",
                     objectFit: "contain",
+                  }}
+                  onClick={() => {
+                    authorizeUser();
+                    getUser();
                   }}
                 />
               </Box>
