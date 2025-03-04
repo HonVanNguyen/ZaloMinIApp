@@ -14,27 +14,39 @@ import { useVirtualKeyboardVisible } from "hooks";
 import React, { FC, useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
 import { MenuItem } from "types/menu";
-import { openChat } from "zmp-sdk/apis";
+import { authorize, openChat, nativeStorage, getUserInfo } from "zmp-sdk/apis";
+import ApiService from "../../services/common.api";
+import authApi from "common/axios/auth";
+import { dispatch, useSelector } from "redux/store";
+import { setAccessTokenApp } from "pages/index/common/home.slice";
+const HomePage = React.lazy(() => import("pages/index"));
+const GiftRedemptionPage = React.lazy(() => import("pages/giftRedemptionPage"));
+const ProfilePage = React.lazy(() => import("pages/profile"));
+
 export const TABS_NAVIGATION: Record<string, MenuItem> = {
   "/": {
     label: "Trang chủ",
     icon: IC_HOME,
     activeIcon: IC_HOME_AC,
+    component: HomePage,
   },
   "/gift": {
     label: "Đổi quà",
     icon: IC_GIFT,
     activeIcon: IC_GIFT_AC,
+    component: GiftRedemptionPage,
   },
   "/notification": {
     label: "Thông báo",
     icon: IC_NOTI,
     activeIcon: IC_NOTI,
+    component: HomePage,
   },
   "/profile": {
     label: "Cá nhân",
     icon: IC_PROFILE,
     activeIcon: IC_PROFILE_AC,
+    component: ProfilePage,
   },
 };
 
@@ -47,7 +59,9 @@ export const Navigation: FC = () => {
   const keyboardVisible = useVirtualKeyboardVisible();
   const navigate = useNavigate();
   const location = useLocation();
-
+  const currentAccessToken = useSelector(
+    (state) => state.homeSlice.accessToken
+  );
   const noBottomNav = useMemo(() => {
     return NO_BOTTOM_NAVIGATION_PAGES.includes(location.pathname);
   }, [location]);
@@ -70,6 +84,34 @@ export const Navigation: FC = () => {
       });
     } catch (error) {
       // xử lý khi gọi api thất bại
+      console.log(error);
+    }
+  };
+  const authorizeUser = async () => {
+    try {
+      const data = await authorize({
+        scopes: ["scope.userLocation", "scope.userPhonenumber"],
+      });
+      if (data?.["scope.userInfo"] && data?.["scope.userPhonenumber"]) {
+        const phoneNumber = await ApiService.getPhoneNumber();
+        const { userInfo } = await getUserInfo({});
+        if (phoneNumber) {
+          const res = await authApi.register({
+            phoneNumber: phoneNumber,
+            name: userInfo?.name,
+            email: null,
+            avatarUrl: userInfo?.avatar,
+            dynamicData: {},
+          });
+          nativeStorage.setItem("accessToken", res.accessToken);
+          dispatch(setAccessTokenApp(res.accessToken));
+          nativeStorage.setItem("refreshToken", res.refreshToken);
+          console.log("Lưu token thành công!");
+        } else {
+          console.log("Đăng nhập thất bại!");
+        }
+      }
+    } catch (error) {
       console.log(error);
     }
   };
@@ -118,6 +160,9 @@ export const Navigation: FC = () => {
               <Box
                 key={path}
                 onClick={() => {
+                  if (!currentAccessToken) {
+                    authorizeUser();
+                  }
                   setActiveTab(path);
                   navigate(path);
                 }}
@@ -138,7 +183,9 @@ export const Navigation: FC = () => {
                 <img
                   loading="lazy"
                   src={
-                    (activeTab === path ? TABS_NAVIGATION[path].activeIcon : TABS_NAVIGATION[path].icon)
+                    activeTab === path
+                      ? TABS_NAVIGATION[path].activeIcon
+                      : TABS_NAVIGATION[path].icon
                   }
                   alt="icon"
                   style={{
@@ -181,7 +228,9 @@ export const Navigation: FC = () => {
                 <img
                   loading="lazy"
                   src={
-                    (activeTab === path ? TABS_NAVIGATION[path].activeIcon : TABS_NAVIGATION[path].icon)
+                    activeTab === path
+                      ? TABS_NAVIGATION[path].activeIcon
+                      : TABS_NAVIGATION[path].icon
                   }
                   alt="icon"
                   style={{

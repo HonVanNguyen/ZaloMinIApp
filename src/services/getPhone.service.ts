@@ -16,10 +16,10 @@ export const getPhoneRequest = async (token: string) => {
         secret_key: secretKey,
       },
     });
-    console.log('dada', response)
+    console.log("Check data: ", response);
     return response.data.data.number;
   } catch (error) {
-    console.log('e', error)
+    console.log("e", error);
     return "";
   }
 };

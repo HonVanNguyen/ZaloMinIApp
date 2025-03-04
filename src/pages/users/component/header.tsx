@@ -1,7 +1,7 @@
 import React, { FC } from "react";
-import { Box, Header, } from "zmp-ui";
-import { LOGO_SOKI_WHITE } from "assets/icon";
-import '../common/styled/home.scss'
+import { Box, Header } from "zmp-ui";
+import { LOGO_MAIN } from "assets/icon";
+// import '../common/styled/home.scss'
 export const HeaderComponent: FC = () => {
   return (
     <Header
@@ -9,11 +9,14 @@ export const HeaderComponent: FC = () => {
       showBackIcon={false}
       title={
         (
-          <Box flex flexDirection="column" justifyContent="space-between" alignItems="flex-start" className="space-x-2 header">
-            <img
-              className="h-14 rounded-lg "
-              src={LOGO_SOKI_WHITE}
-            />
+          <Box
+            flex
+            flexDirection="column"
+            justifyContent="space-between"
+            alignItems="flex-start"
+            className="space-x-2 header"
+          >
+            <img className="h-14 rounded-lg " src={LOGO_MAIN} />
           </Box>
         ) as unknown as string
       }

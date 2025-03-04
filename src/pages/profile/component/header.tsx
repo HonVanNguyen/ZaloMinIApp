@@ -11,7 +11,7 @@ export const HeaderComponent: FC = () => {
   const getUser = async () => {
     try {
       const { userInfo } = await getUserInfo({});
-      console.log('ús', userInfo)
+      // console.log("User Information: ", userInfo);
       return userInfo;
     } catch (error) {
       // xử lý khi gọi api thất bại
@@ -34,7 +34,6 @@ export const HeaderComponent: FC = () => {
     fetchData(); // Gọi hàm fetchData mà không cần kiểm tra if(fetchData)
   }, []);
 
-  console.log("user data :: ", userDataLogin);
   return (
     <Box
       sx={{

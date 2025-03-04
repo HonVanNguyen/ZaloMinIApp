@@ -54,20 +54,21 @@ export const Welcome: FC = () => {
       title={
         (
           <Box
-          sx={{
-            display:'flex',
-            flexDirection:'column',
-            justifyContent:'space-between',
-            alignItems:'flex-start',
-            position:'relative'
-          }}
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "space-between",
+              alignItems: "flex-start",
+              position: "relative",
+            }}
             className="space-x-2 header"
           >
             <Box
-            sx={{
-              position:'absolute',
-              top:'-20px'
-            }}>
+              sx={{
+                position: "absolute",
+                top: "-20px",
+              }}
+            >
               <img className="h-14 rounded-lg " src={LOGO_MAIN} />
             </Box>
             {/* <Typography className="text-av" onClick={() => clickBtn()}>
