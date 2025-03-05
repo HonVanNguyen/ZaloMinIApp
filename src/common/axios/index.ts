@@ -1,10 +1,12 @@
 
 // export default axiosInstance;
 import axios from 'axios';
+import { API_REFRESH_TOKEN } from 'common/api/path.api';
 import { setAccessTokenApp } from 'pages/index/common/home.slice';
 import { store } from 'redux/store';
 import {
   getStorage as getZaloStore,
+  nativeStorage,
   setStorage as setZaloStore,
 } from "zmp-sdk/apis";
 // Tạo một instance Axios
@@ -45,16 +47,19 @@ axiosInstance.interceptors.response.use(
     const isAccessTokenExpired = response?.data?.subCode === accessTokenExpiredStatusCode;
     const is401 = response?.status === unAuthorizedStatusCode;
 
-    // Lấy accessToken và refreshToken từ storage
-    const { refreshToken, accessToken } = await getZaloStore({
-      keys: ["accessToken", "refreshToken" ],
-    });
+    // const { refreshToken, accessToken } = await getZaloStore({
+      //   keys: ["accessToken", "refreshToken" ],
+      // });
+      
+      // Lấy accessToken và refreshToken từ storage
+    const accessToken = nativeStorage.getItem("accessToken");
+    const refreshToken = nativeStorage.getItem("refreshToken");
 
     if (is401 && isAccessTokenExpired) {
       return new Promise((resolve, reject) => {
         axiosInstance.defaults.headers.common.Authorization = `Bearer ${accessToken}`;
         axiosInstance
-          .post('/customer/auth/refresh-token', { refreshToken }) // API_REFRESH_TOKEN
+          .post(API_REFRESH_TOKEN, { refreshToken }) // API_REFRESH_TOKEN
           .then(async ({ data }) => {
             const newAccessToken = `Bearer ${data?.accessToken}`;
             axiosInstance.defaults.headers.common.Authorization = newAccessToken;
@@ -62,16 +67,27 @@ axiosInstance.interceptors.response.use(
 
             // Cập nhật token mới vào Redux hoặc storage
             store?.dispatch(setAccessTokenApp(newAccessToken));
-
-            const { errorKeys } = await setZaloStore({
-              data: {
-                accessToken: data?.accessToken,
-                refreshToken: data?.refreshToken
-              },
-            });
-            if (errorKeys) {
-              console.log("Error keys:", errorKeys);
+            const tokenMissing = !accessToken || !refreshToken;
+            switch (tokenMissing) {
+              case true:
+                console.log("Token is missing");                
+                break;
+              case false:
+                console.log("Token is available");
+                break;
+              default:
+                break;
             }
+
+            // const { errorKeys } = await setZaloStore({
+            //   data: {
+            //     accessToken: data?.accessToken,
+            //     refreshToken: data?.refreshToken
+            //   },
+            // });
+            // if (errorKeys) {
+            //   console.log("Error keys:", errorKeys);
+            // }
           })
           .catch(async (error) => {
 

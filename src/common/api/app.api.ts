@@ -1,5 +1,7 @@
 "use strict";
 
+import { getPhoneRequest } from "services/getPhone.service";
+import { getPhoneNumber, getUserInfo } from "zmp-sdk";
 import { getAppInfo as fetchAppInfo } from "zmp-sdk/apis";
 import {
   getSetting as fetchAppSetting,
@@ -84,3 +86,39 @@ const handleOpenProfile = async () => {
     return null;
   }
 };
+
+export const getUserPhoneNumber = async () => {
+  try {
+    const token = await new Promise<string | undefined>((resolve, reject) => {
+      getPhoneNumber({
+        success: (data) => {
+          resolve(data.token);
+        },
+        fail: (error) => {
+          reject(error);
+        },
+      });
+    });
+    const getPhoneWithToken = await getPhoneRequest(token);
+    console.log("SĐT: ", getPhoneWithToken);
+    return getPhoneWithToken;
+  } catch (error) {
+    console.error("error:", error);
+  }
+};
+
+export const getUserWithNameAndAvatar = async () => {
+  try {
+    const { userInfo } = await getUserInfo({});
+    const data = {
+      name: userInfo.name,
+      avatar: userInfo.avatar
+    }
+    console.log(data);
+    return data;
+
+  } catch (error) {
+    console.log(error);
+  }
+};
+

@@ -18,8 +18,8 @@ export const getPhoneRequest = async (token: string | undefined) => {
         secret_key: secretKey,
       },
     });
-    console.log('dada', response.data.data.number)
-    return response.data.data.number;
+    // console.log('dada', response.data.data.number)
+    return response.data?.data?.number;
   } catch (error) {
     console.log('e', error)
     return "";

@@ -112,9 +112,16 @@ export interface IUserInfoZalo {
   avatar?: string;
   followedOA?: boolean;
   id?: string;
-  idByOA?:string;
-  isSensitive?:boolean;
-  name?:string;
+  idByOA?: string;
+  isSensitive?: boolean;
+  name?: string;
+}
+
+export interface IUserPhone {
+  phoneNumber?: string;
+  name?: string;
+  email?: string | null;
+  avatarUrl?: string;
 }
 
 export interface IUserApp {
@@ -122,8 +129,8 @@ export interface IUserApp {
   name?: string;
   phone?: string;
   email?: string;
-  position?:string;
-  major?:string;
+  position?: string;
+  major?: string;
   address?: string;
   address_2?: string;
   avatar?: string;
@@ -134,4 +141,5 @@ export interface IInitialState {
   confirmLogoutVisible: boolean;
   accessToken?: string;
   isOpenDataForm: boolean;
+  // permissionPhoneNumber: boolean;
 }

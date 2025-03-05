@@ -7,6 +7,7 @@ const initialState: IInitialState = {
   confirmLogoutVisible: false,
   isOpenDataForm: true,
   accessToken: "",
+  // permissionPhoneNumber: true,
   listGiftData: [],
 };
 
@@ -26,6 +27,9 @@ export const homeSlice = createSlice({
     setGiftData: (state, action: PayloadAction<GIFT[]>) => {
       state.listGiftData = action.payload;
     },
+    // setPermissionPhoneNumber: (state, action: PayloadAction<boolean>) => {
+    //   state.permissionPhoneNumber = action.payload;
+    // }
   },
 });
 

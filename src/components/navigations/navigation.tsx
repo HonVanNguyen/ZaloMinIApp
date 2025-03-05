@@ -10,14 +10,15 @@ import {
   IC_PROFILE_AC,
   NAV_BOTTOM,
 } from "assets/bottom";
-import { API_LOGIN } from "common/api/path.api";
-import axiosInstance from "common/axios";
+import { getUserPhoneNumber, getUserWithNameAndAvatar } from "common/api/app.api";
 import { useVirtualKeyboardVisible } from "hooks";
+import { setAccessTokenApp } from "pages/index/common/home.slice";
+import { registerByAccessPhoneNumber } from "pages/index/common/services";
 import React, { FC, useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
-import { getPhoneRequest } from "services/getPhone.service";
+import { dispatch, RootState, useSelector } from "redux/store";
 import { MenuItem } from "types/menu";
-import { authorize, getPhoneNumber, getUserInfo, openChat } from "zmp-sdk/apis";
+import { authorize, nativeStorage, openChat } from "zmp-sdk/apis";
 export const TABS_NAVIGATION: Record<string, MenuItem> = {
   "/": {
     label: "Trang chủ",
@@ -50,6 +51,7 @@ export const Navigation: FC = () => {
   const keyboardVisible = useVirtualKeyboardVisible();
   const navigate = useNavigate();
   const location = useLocation();
+  
 
   const noBottomNav = useMemo(() => {
     return NO_BOTTOM_NAVIGATION_PAGES.includes(location.pathname);
@@ -77,58 +79,37 @@ export const Navigation: FC = () => {
     }
   };
 
-  const getUserPhoneNumber = async () => {
-    getPhoneNumber({
-      success: async (data) => {
-        let { token } = data;
-        console.log(data);
-
-        getPhoneRequest(token)
-      },
-      fail: (error) => {
-        // Xử lý khi gọi api thất bại
-        console.log(error);
-      },
-    });
-
-  }
-
-  const authorizeUser = async () => {
+  const userPermissionPhoneNumber = useSelector(
+    (state: RootState) => state.homeSlice.accessToken
+  );
+  
+  const userRegisterByAccessPhoneNumber = async () => {
     try {
-      const data = await authorize({
-        scopes: ["scope.userPhonenumber"],
+      const permissionInfo = await authorize({
+        scopes: ["scope.userLocation","scope.userPhonenumber"],
       });
-      console.log(data)
-      userLogin();
-
+      if(!permissionInfo["scope.userPhonenumber"]) {
+        console.log("Permission denied");
+        return null;
+      }
+      const userPhoneNumber = await getUserPhoneNumber();
+      const userInfo = await getUserWithNameAndAvatar();
+      const data = {
+        name: userInfo?.name ?? "",
+        email: null,
+        avatarUrl: userInfo?.avatar ?? "",
+        phoneNumber: String(userPhoneNumber)
+      }
+      const response: any = await registerByAccessPhoneNumber(data);
+      nativeStorage.setItem("accessToken", response.accessToken)
+      dispatch(setAccessTokenApp(response.accessToken));
+      nativeStorage.setItem("refreshToken", response.refreshToken)     
     } catch (error) {
-      // xử lý khi gọi api thất bại
-      console.log(error);
+      console.error("Register Failed", error);
+      return null;
     }
-  };
+  }  
 
-  const userLogin = async () => {
-    const response = await axiosInstance.post(API_LOGIN, {
-      phoneNumber: "string"
-    },
-      {
-        headers: { 'Content-Type': 'application/json' }
-      })
-
-    console.log("khoatiendao", response.data);
-  }
-
-  const getUser = async () => {
-    try {
-      const { userInfo } = await getUserInfo({});
-      const userPhone = getUserPhoneNumber();
-      console.log(userInfo);
-      console.log(userPhone);
-    } catch (error) {
-      // xử lý khi gọi api thất bại
-      console.log(error);
-    }
-  };
   return (
     <Box
       sx={{
@@ -245,8 +226,11 @@ export const Navigation: FC = () => {
                     objectFit: "contain",
                   }}
                   onClick={() => {
-                    authorizeUser();
-                    getUser();
+                    // authorizeUser();
+                    if(userPermissionPhoneNumber == "") {
+                      userRegisterByAccessPhoneNumber()
+                    }
+                    
                   }}
                 />
               </Box>

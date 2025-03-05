@@ -19,3 +19,5 @@ export const API_UPDATE_DATE ="/customer/profile";
 // register
 export const API_REGISTER_DATE ="/customer/auth/register";
 
+// api refresh token
+export const API_REFRESH_TOKEN = "/customer/auth/refresh-token"
